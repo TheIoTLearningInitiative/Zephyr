@@ -1,6 +1,6 @@
 # Architecture
 
-## Clone Repository
+## Clone Repository In Intel Edison
 
 ```
     root@edison:~# git clone https://gerrit.zephyrproject.org/r/zephyr --branch v1.0
