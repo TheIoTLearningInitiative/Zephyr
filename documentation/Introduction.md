@@ -25,7 +25,7 @@ __Developer Guides__
 > > This section contains references that explain how to build microkernel and nanokernel applications.
 
 > API Documentation
-> > 
+> > This section contains the API documentation automatically extracted from the code. To ease navigation, we have split the APis in nanokernel APIs and microkernel APIs.
 
 > Collaboration Guidelines
 - Reference Guides
