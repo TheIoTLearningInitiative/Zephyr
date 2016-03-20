@@ -13,3 +13,8 @@ Power Management
 Device Drivers
 Networking
 Cryptography
+Compile and Link Features
+Debugging Options
+Logging Options
+System Monitoring Options
+Boot Options
