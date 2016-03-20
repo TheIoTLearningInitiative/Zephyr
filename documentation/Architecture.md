@@ -2,6 +2,7 @@
 
 ## Make Help
 
+```
 xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ make help
 Cleaning targets:
   clean		  - Remove most generated files but keep configuration and backup files
@@ -65,10 +66,11 @@ Build flags:
 		Multiple levels can be combined with W=12 or W=123
 
 Execute "make" or "make all" to build all targets marked with [*] 
-
+```
 
 ## Make Menuconfig
 
+```sh
 Architecture (x86 architecture)
 x86 SoC Selection (Generic IA32 SoC)
 x86 Options
@@ -87,3 +89,4 @@ Debugging Options
 Logging Options
 System Monitoring Options
 Boot Options
+```
