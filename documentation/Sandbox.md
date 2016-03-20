@@ -15,5 +15,5 @@
     xe1gyq@jessie:~/zephyr-project$ ls
     arch    doc      include  Kconfig         kernel  LICENSE   Makefile.inc  net      scripts  zephyr-env.sh
     boards  drivers  Kbuild   Kconfig.zephyr  lib     Makefile  misc          samples  tests
-    
+    xe1gyq@jessie:~/zephyr-project$ source zephyr-env.sh
 ```
