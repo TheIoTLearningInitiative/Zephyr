@@ -42,5 +42,6 @@
      [*] Installing iamcu tools... 
      [*] Installing mips tools... 
      [*] Installing additional host tools
+     Success installing SDK. SDK is ready to be used.
 
 ```
