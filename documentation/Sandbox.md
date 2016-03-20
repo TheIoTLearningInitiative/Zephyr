@@ -1,7 +1,7 @@
 # Sandbox
 
 ```sh
-    xe1gyq@jessie:~$ git clone https://gerrit.zephyrproject.org/r/zephyr zephyr-project
+    user@host:~$ git clone https://gerrit.zephyrproject.org/r/zephyr zephyr-project
     Cloning into 'zephyr-project'...
     remote: Counting objects: 3, done
     remote: Finding sources: 100% (3/3)
