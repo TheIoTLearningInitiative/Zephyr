@@ -7,7 +7,7 @@
 
 Getting Started
 
-> Introduction to the Zephyr Project. The Zephyr Kernel is a small-footprint kernel designed for use on resource-constrained systems: from simple embedded environmental sensors and LED wearables to sophisticated smart watches and IoT wireless gateways.
+> __Introduction to the Zephyr Project.__ The Zephyr Kernel is a small-footprint kernel designed for use on resource-constrained systems: from simple embedded environmental sensors and LED wearables to sophisticated smart watches and IoT wireless gateways.
   
   - Getting Started Guide
   - Zephyr Kernel Primer
