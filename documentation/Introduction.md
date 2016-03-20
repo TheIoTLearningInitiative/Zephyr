@@ -35,7 +35,7 @@ __Reference Guides__
 > Configuration Options Reference Guide
 > > Kconfig files describe the configuration symbols supported in the build system... The configuration options’ information is extracted directly from Kconfig ...
 
-- Supported Boards
+__Supported Boards__
   - x86 Instruction Set
   - ARM (v7-M and v7E-M) Instruction Set
   - ARC EM4 Instruction Set  
