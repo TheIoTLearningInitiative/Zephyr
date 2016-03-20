@@ -36,9 +36,18 @@ __Reference Guides__
 > > Kconfig files describe the configuration symbols supported in the build system... The configuration options’ information is extracted directly from Kconfig ...
 
 __Supported Boards__
-  - x86 Instruction Set
-  - ARM (v7-M and v7E-M) Instruction Set
-  - ARC EM4 Instruction Set  
+
+- x86 Instruction Set
+  - Arduino 101
+  - Quark D2000 CRB
+  - Galileo Gen1/Gen2
+  - Minnowboard Max
+  - X86 Emulation (QEMU) 
+- ARM (v7-M and v7E-M) Instruction Set
+  - ARM Cortex-M3 Emulation (QEMU)
+  - Arduino Due
+  - Freescale FRDM-K64F
+- ARC EM4 Instruction Set
 
 ## Zephyr SDK
 
