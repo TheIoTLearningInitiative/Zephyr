@@ -43,5 +43,8 @@
      [*] Installing mips tools... 
      [*] Installing additional host tools
      Success installing SDK. SDK is ready to be used.
+     xe1gyq@jessie:~/zephyr-project$ export ZEPHYR_GCC_VARIANT=zephyr
+     xe1gyq@jessie:~/zephyr-project$ export ZEPHYR_SDK_INSTALL_DIR=/home/xe1gyq/zephyr/zephyr-sdk/
+     
 
 ```
