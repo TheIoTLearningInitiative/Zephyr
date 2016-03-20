@@ -16,6 +16,10 @@
   - Collaboration Guidelines
 - Reference Guides
   - Configuration Options Reference Guide
+- Supported Boards
+  - x86 Instruction Set
+  - ARM (v7-M and v7E-M) Instruction Set
+  - ARC EM4 Instruction Set  
 
 ## Zephyr SDK
 
