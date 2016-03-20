@@ -187,6 +187,7 @@
     make[1]: Leaving directory '/home/xe1gyq/zephyr-project'
 ```
 
+## x86 Emulation QEMU
 
 ```sh
 xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=qemu_x86 qemu
