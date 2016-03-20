@@ -1,8 +1,8 @@
 # Sandbox
 
 ```sh
-    user@host:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib
-    user@host:~$ git clone https://gerrit.zephyrproject.org/r/zephyr zephyr-project
+    xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib
+    xe1gyq@jessie:~$ git clone https://gerrit.zephyrproject.org/r/zephyr zephyr-project
     Cloning into 'zephyr-project'...
     remote: Counting objects: 3, done
     remote: Finding sources: 100% (3/3)
@@ -10,5 +10,10 @@
     Receiving objects: 100% (60526/60526), 19.74 MiB | 1.09 MiB/s, done.
     Resolving deltas: 100% (40213/40213), done.
     Checking connectivity... done.
-    user@host:~# 
+    user@host:~$ cd zephyr-project 
+    user@host:~$ ls
+    xe1gyq@jessie:~/zephyr-project$ ls
+    arch    doc      include  Kconfig         kernel  LICENSE   Makefile.inc  net      scripts  zephyr-env.sh
+    boards  drivers  Kbuild   Kconfig.zephyr  lib     Makefile  misc          samples  tests
+    
 ```
