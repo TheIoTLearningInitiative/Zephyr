@@ -50,7 +50,7 @@
      > export ZEPHYR_SDK_INSTALL_DIR=/home/xe1gyq/zephyr/zephyr-sdk/
      > EOF
      xe1gyq@jessie:~/zephyr-project$ cd
-     
+     xe1gyq@jessie:~$ 
 ```
 
 ```sh
