@@ -30,8 +30,11 @@ __Developer Guides__
 > Collaboration Guidelines
 > > Thank you for your interest in collaborating with the Zephyr Project. These guidelines provide the best ways to collaborate with the team: Contributing Code, Communication Tools and Documentation Style Guide
 
-- Reference Guides
-  - Configuration Options Reference Guide
+__Reference Guides__
+
+> Configuration Options Reference Guide
+> > Kconfig files describe the configuration symbols supported in the build system... The configuration options’ information is extracted directly from Kconfig ...
+
 - Supported Boards
   - x86 Instruction Set
   - ARM (v7-M and v7E-M) Instruction Set
