@@ -48,6 +48,7 @@ __Supported Boards__
   - Arduino Due
   - Freescale FRDM-K64F
 - ARC EM4 Instruction Set
+  - Arduino 101 
 
 ## Zephyr SDK
 
