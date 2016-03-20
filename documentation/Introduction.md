@@ -28,6 +28,8 @@ __Developer Guides__
 > > This section contains the API documentation automatically extracted from the code. To ease navigation, we have split the APis in nanokernel APIs and microkernel APIs.
 
 > Collaboration Guidelines
+> > Thank you for your interest in collaborating with the Zephyr Project. These guidelines provide the best ways to collaborate with the team: Contributing Code, Communication Tools and Documentation Style Guide
+
 - Reference Guides
   - Configuration Options Reference Guide
 - Supported Boards
