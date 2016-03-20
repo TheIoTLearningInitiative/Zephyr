@@ -45,6 +45,9 @@
      Success installing SDK. SDK is ready to be used.
      xe1gyq@jessie:~/zephyr-project$ export ZEPHYR_GCC_VARIANT=zephyr
      xe1gyq@jessie:~/zephyr-project$ export ZEPHYR_SDK_INSTALL_DIR=/home/xe1gyq/zephyr/zephyr-sdk/
-     
+     xe1gyq@jessie:~/zephyr-project$ cat <<EOF > ~/.zephyrrc
+     > export ZEPHYR_GCC_VARIANT=zephyr
+     > export ZEPHYR_SDK_INSTALL_DIR=/home/xe1gyq/zephyr/zephyr-sdk/
+     > EOF
 
 ```
