@@ -1,5 +1,11 @@
 # Architecture
 
+## Clone Repository
+
+```
+    root@edison:~# git clone https://gerrit.zephyrproject.org/r/zephyr --branch v1.0
+```
+
 ## Make Help
 
 ```
