@@ -7,7 +7,7 @@
 
 - Getting Started
   - Introduction to the Zephyr Project
-  - Getting Started Guide
+  - Getting Started Guide Use this guide to get started with your Zephyr development.
   - Zephyr Kernel Primer
 - Developer Guides
   - Build System User Guide
