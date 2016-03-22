@@ -49,5 +49,14 @@ Intel Galileo
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/sdcard/kernel
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ cp $ZEPHYR_BASE/samples/hello_world/nanokernel/outdir/zephyr.strip /media/cdrom/kernel/
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ cp $ZEPHYR_BASE/scripts/grub/bin/grub.efi /media/cdrom/efi/boot/bootia32.efi
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ 
+    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ nano /media/cdrom/efi/boot/grub.cfg
+```
+
+```sh
+set default=0
+set timeout=10
+
+menuentry "Zephyr Kernel" {
+   multiboot /kernel/zephyr.strip
+}
 ```
