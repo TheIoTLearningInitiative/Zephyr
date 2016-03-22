@@ -106,6 +106,8 @@ Execute "make" or "make all" to build all targets marked with [*]
 
 ### Source Tree
 
+Look at the source tree
+
 - [Source Tree Structure](https://www.zephyrproject.org/doc/kernel/overview/source_tree.html)
 
 ### Microkernel, NanoKernel
