@@ -28,3 +28,5 @@
 > __Mutex__
 > > In computer science, mutual exclusion refers to the requirement of ensuring that no two concurrent processes[a] are in their critical section at the same time; it is a basic requirement in concurrency control, to prevent race conditions. Here, a critical section refers to a period when the process accesses a shared resource, such as shared memory. [Wikipedia](https://en.wikipedia.org/wiki/Mutual_exclusion)
 
+> __Memory Allocation__
+> > Memory management is the act of managing computer memory at the system level. The essential requirement of memory management is to provide ways to dynamically allocate portions of memory to programs at their request, and free it for reuse when no longer needed. This is critical to any advanced computer system where more than a single process might be underway at any time. 
