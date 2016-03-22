@@ -4,6 +4,13 @@
     xe1gyq@jessie:~/zephyr-project$ 
 ```
 
+### Setting the Project’s Environment Variables
+
+```sh
+    xe1gyq@jessie:~$ cd zephyr-project 
+    xe1gyq@jessie:~/zephyr-project$ source zephyr-env.sh
+```
+
 ```sh
     xe1gyq@jessie:~$ cd $ZEPHYR_BASE/samples/hello_world/microkernel
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ make
