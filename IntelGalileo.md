@@ -76,7 +76,7 @@ WARNING: no console will be available to OS
 error: no suitable video mode found.
 ```
 
-## Official Documentation
+## Let´s Get To Work
 
 ```sh
 xe1gyq@jessie:~/zephyr-project/samples/shell$ cd $ZEPHYR_BASE/samples/shell
