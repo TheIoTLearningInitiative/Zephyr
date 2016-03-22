@@ -89,7 +89,7 @@ Compile and run samples/shell
     xe1gyq@jessie:~/zephyr-project/samples/shell# mount -t vfat /dev/sdb1 /media/sdcard/
     xe1gyq@jessie:~/zephyr-project/samples/shell# cp $ZEPHYR_BASE/samples/shell/outdir/zephyr.strip /media/sdcard/kernel/
     xe1gyq@jessie:~/zephyr-project/samples/shell$ umount /media/sdcard/
-    xe1gyq@jessie:~/zephyr-project/samples/shell$ 
+    xe1gyq@jessie:~/zephyr-project/samples/shell$  
 ```
 
 ```sh
