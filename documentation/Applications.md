@@ -7,7 +7,7 @@
     xe1gyq@jessie:~/zephyr-project$ source zephyr-env.sh
 ```
 
-### Building a Sample Application
+### Building a Sample Application, Default
 
 ```sh
     xe1gyq@jessie:~$ cd $ZEPHYR_BASE/samples/hello_world/microkernel
