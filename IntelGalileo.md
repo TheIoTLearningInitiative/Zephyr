@@ -43,4 +43,9 @@ Intel Galileo
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ file outdir/zephyr.strip 
     outdir/zephyr.strip: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
     
+    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mount -t vfat /dev/sdb1 /media/cdrom/
+root@jessie:/home/xe1gyq/zephyr-project/arch/x86/soc# mkdir /media/cdrom/efi
+root@jessie:/home/xe1gyq/zephyr-project/arch/x86/soc# mkdir /media/cdrom/efi/boot
+root@jessie:/home/xe1gyq/zephyr-project/arch/x86/soc# mkdir /media/cdrom/kernel
+
 ```
