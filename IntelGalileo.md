@@ -111,7 +111,7 @@ shell>
 ### Samples Drivers Grove-Lcd
 
 ```sh
-    xe1gyq@jessie:~/zephyr-project/samples/shell$ cd $ZEPHYR_BASE/samples/drivers/grove_lcd
+    xe1gyq@jessie:~/zephyr-project$ cd $ZEPHYR_BASE/samples/drivers/grove_lcd
     xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd$ make distclean
     xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd$ make BOARD=galileo
     xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd# mount -t vfat /dev/sdb1 /media/sdcard/
