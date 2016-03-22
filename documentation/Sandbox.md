@@ -1,12 +1,6 @@
 Sandbox
 ==
 
-## Development Environment Setup on Linux
-
-```sh
-    xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib
-```
-
 ## Download the Code
 
 ```sh
@@ -19,6 +13,12 @@ Sandbox
     Receiving objects: 100% (60526/60526), 19.74 MiB | 1.09 MiB/s, done.
     Resolving deltas: 100% (40213/40213), done.
     Checking connectivity... done.
+```
+
+## Development Environment Setup on Linux
+
+```sh
+    xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib
     user@host:~$ cd zephyr-project 
     user@host:~$ ls
     xe1gyq@jessie:~/zephyr-project$ ls
