@@ -90,6 +90,8 @@ Compile and run samples/shell
     xe1gyq@jessie:~/zephyr-project/samples/shell$  
 ```
 
+Booting the Galileo Board
+
 ```sh
     WARNING: no console will be available to OS
     error: no suitable video mode found.
