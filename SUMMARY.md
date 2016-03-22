@@ -8,4 +8,5 @@
 * [Zephyr Kernel Primer](documentation/ZephyrKernelPrimer.md)
    * [Architecture](documentation/Architecture.md)
 * [Sandbox](documentation/Sandbox.md)
+* Getting Started
 
