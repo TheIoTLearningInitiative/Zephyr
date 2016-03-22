@@ -6,5 +6,5 @@
 * [Sandbox](documentation/Sandbox.md)
 * [Architecture](documentation/Architecture.md)
 * [Applications](documentation/Applications.md)
-* [Development Environment](DevelopmentEnvironment.md)
+* [Development Environment](documentation/DevelopmentEnvironment.md)
 
