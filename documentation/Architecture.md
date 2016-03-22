@@ -104,8 +104,13 @@ Execute "make" or "make all" to build all targets marked with [*]
 
 Look at the following Configurations Options
 
+- CONFIG_X86
+- CONFIG_SOC
+- CONFIG_X86_IAMCU
 - CONFIG_SOC_QUARK_D2000
 - CONFIG_SOC_QUARK_X1000
 - CONFIG_SOC_ATOM
 - CONFIG_SOC_QUARK_SE
 - CONFIG_SOC_IA32
+- CONFIG_CPU_ATOM
+- CONFIG_CPU_MINUTEIA
