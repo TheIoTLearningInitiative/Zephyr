@@ -75,3 +75,5 @@ Press [F7]    to show boot menu options.
 WARNING: no console will be available to OS
 error: no suitable video mode found.
 ```
+
+xe1gyq@jessie:~/zephyr-project/samples/shell$ make BOARD=galileo
