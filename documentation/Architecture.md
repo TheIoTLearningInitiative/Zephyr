@@ -101,4 +101,11 @@ Execute "make" or "make all" to build all targets marked with [*]
 ## Configuration Options Reference Guide
 
 - [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
-- 
+
+Look at the following Configurations Options
+
+- CONFIG_SOC_QUARK_D2000
+- CONFIG_SOC_QUARK_X1000
+- CONFIG_SOC_ATOM
+- CONFIG_SOC_QUARK_SE
+- CONFIG_SOC_IA32
