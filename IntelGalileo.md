@@ -38,5 +38,9 @@ Intel Galileo
       CHK     include/generated/offsets.h
     make[2]: Leaving directory '/home/xe1gyq/zephyr-project/samples/hello_world/nanokernel/outdir'
     make[1]: Leaving directory '/home/xe1gyq/zephyr-project'
+    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ ls outdir/zephyr.strip 
+    outdir/zephyr.strip
+    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ file outdir/zephyr.strip 
+    outdir/zephyr.strip: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
     
 ```
