@@ -9,6 +9,7 @@ Intel Galileo
     Cloning into 'src'...
     remote: Counting objects: 90290, done.
     ...
+    
 
 ```
 
