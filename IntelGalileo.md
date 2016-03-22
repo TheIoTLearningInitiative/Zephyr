@@ -62,7 +62,9 @@ menuentry "Zephyr Kernel" {
 ```
 
 
+```sh
   Booting `Zephyr Kernel'
 
 WARNING: no console will be available to OS
 error: no suitable video mode found.
+```
