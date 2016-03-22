@@ -20,4 +20,5 @@
 > > In computer science, a semaphore is a variable or abstract data type that is used for controlling access, by multiple processes, to a common resource in a concurrent system such as a multiprogramming operating system. [Wikipedia](https://en.wikipedia.org/wiki/Semaphore_(programming)
 
 > __Multithreading__
-> > Multithreading is mainly found in multitasking operating systems. Multithreading is a widespread programming and execution model that allows multiple threads to exist within the context of one process. These threads share the process's resources, but are able to execute independently. The threaded programming model provides developers with a useful abstraction of concurrent execution. [Wikipedia](https://en.wikipedia.org/wiki/Thread_(computing)#Multithreading)
+> > Multithreading is mainly found in multitasking operating systems. Multithreading is a widespread programming and execution model that allows multiple threads to exist within the context of one process. These threads share the process's resources, but are able to execute independently. The threaded programming model provides developers with a useful abstraction of concurrent execution. [Wikipedia](https://en.wikipedia.org/wiki/Thread_(computing))
+
