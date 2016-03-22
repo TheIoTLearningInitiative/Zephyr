@@ -125,7 +125,7 @@ Review nanokernel and microkernel code
 ### Architecture, SoC, Board
 
 Look at the following Configurations Options under [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
-and identify which SoC i tight to which Board for the x86 Architecture
+and identify which SoC is tight to which Board for the x86 Architecture
 
 - CONFIG_X86
 - CONFIG_SOC
