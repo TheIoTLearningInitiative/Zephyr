@@ -78,6 +78,8 @@ error: no suitable video mode found.
 
 ## Let´s Get To Work
 
+
+
 ```sh
 xe1gyq@jessie:~/zephyr-project/samples/shell$ cd $ZEPHYR_BASE/samples/shell
 xe1gyq@jessie:~/zephyr-project/samples/shell$ make BOARD=galileo
