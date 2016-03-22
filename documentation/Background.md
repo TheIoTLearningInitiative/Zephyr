@@ -9,6 +9,9 @@
 > __Microkernel__
 > > In computer science, a microkernel (also known as μ-kernel) is the near-minimum amount of software that can provide the mechanisms needed to implement an operating system (OS). These mechanisms include low-level address space management, thread management, and inter-process communication (IPC). [Wikipedia](https://en.wikipedia.org/wiki/Microkernel)
 
+> __Nanokernel__
+> > A kernel where the total amount of kernel code, i.e. code executing in the privileged mode of the hardware, is very small. The term picokernel was sometimes used to further emphasize small size. [Wikipedia](https://en.wikipedia.org/wiki/Microkernel#Nanokernel)
+
 > __Semaphore__
 > > In computer science, a semaphore is a variable or abstract data type that is used for controlling access, by multiple processes, to a common resource in a concurrent system such as a multiprogramming operating system. [Wikipedia](https://en.wikipedia.org/wiki/Semaphore_(programming)
 
