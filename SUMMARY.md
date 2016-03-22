@@ -5,8 +5,8 @@
    * [Terminology](documentation/Terminology.md)
 * Getting Started
    * [Development Environment](documentation/DevelopmentEnvironment.md)
+   * [Applications](documentation/Applications.md)
    * Placeholder
-* [Applications](documentation/Applications.md)
 * [Zephyr Kernel Primer](documentation/ZephyrKernelPrimer.md)
    * [Architecture](documentation/Architecture.md)
 * [Sandbox](documentation/Sandbox.md)
