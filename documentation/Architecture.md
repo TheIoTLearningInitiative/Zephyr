@@ -114,3 +114,5 @@ Look at the following Configurations Options
 - CONFIG_SOC_IA32
 - CONFIG_CPU_ATOM
 - CONFIG_CPU_MINUTEIA
+
+## Zephyr Kernel Configuration, x86 SoC & Board Selection
