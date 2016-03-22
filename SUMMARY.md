@@ -5,4 +5,5 @@
 * [Background](documentation/Background.md)
 * [Architecture](documentation/Architecture.md)
 * [Sandbox](documentation/Sandbox.md)
+* Applications
 
