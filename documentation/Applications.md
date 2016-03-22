@@ -157,7 +157,7 @@ Applications
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ 
 ```
 
-### Building a Sample Application, x86 Emulation QEMU
+### Running a Sample Application, x86 Emulation QEMU
 
 ```sh
 xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=qemu_x86 qemu
