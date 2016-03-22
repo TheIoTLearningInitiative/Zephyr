@@ -62,11 +62,11 @@ menuentry "Zephyr Kernel" {
 ```
 
 ```sh
+Press [Enter] to directly boot.
+Press [F7]    to show boot menu options.
 ```
 
 ```sh
-Press [Enter] to directly boot.
-Press [F7]    to show boot menu options.
 ```
 
 ```sh
