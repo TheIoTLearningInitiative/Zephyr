@@ -13,7 +13,11 @@ Intel Galileo
     Cloning into 'src'...
     remote: Counting objects: 90290, done.
     ...
-    
+    make[2]: Leaving directory '/home/xe1gyq/zephyr-project/scripts/grub/src/util/bash-completion.d'
+    make[1]: Leaving directory '/home/xe1gyq/zephyr-project/scripts/grub/src'
+    ~/zephyr-project/scripts/grub ~/zephyr-project
+    ~/zephyr-project
+    xe1gyq@jessie:~/zephyr-project$
 ```
 
 ### Preparing the Boot Device

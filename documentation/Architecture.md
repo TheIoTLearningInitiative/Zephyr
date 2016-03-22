@@ -102,7 +102,7 @@ Execute "make" or "make all" to build all targets marked with [*]
     Boot Options
 ```
 
-## Now Some Action
+## Now! Some Action
 
 ### Source Tree
 
