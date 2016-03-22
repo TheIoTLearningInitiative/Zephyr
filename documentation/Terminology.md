@@ -1,7 +1,7 @@
 Terminology
 ==
 
-> Real Time Operating System
+> __Real Time Operating System__
 > > A real-time operating system (RTOS) is an operating system (OS) intended to serve real-time application process data as it comes in, typically without buffering delays. Processing time requirements (including any OS delay) are measured in tenths of seconds or shorter. [Wikipedia](https://en.wikipedia.org/wiki/Real-time_operating_system)
 
 > __Single Address Space Operating System__
