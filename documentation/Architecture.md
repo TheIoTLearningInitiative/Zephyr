@@ -106,7 +106,7 @@ Execute "make" or "make all" to build all targets marked with [*]
 
 ### Source Tree
 
-Look at the Zephyr source tree top-level directories
+Look at the source tree top-level directories
 
 - [Source Tree Structure](https://www.zephyrproject.org/doc/kernel/overview/source_tree.html)
 
