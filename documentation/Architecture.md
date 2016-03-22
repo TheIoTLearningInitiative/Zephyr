@@ -101,3 +101,4 @@ Execute "make" or "make all" to build all targets marked with [*]
 ## Configuration Options Reference Guide
 
 - [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
+- 
