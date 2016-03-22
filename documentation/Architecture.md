@@ -104,7 +104,7 @@ Execute "make" or "make all" to build all targets marked with [*]
 
 - [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
 
-Look at the following Configurations Options
+Look at the following Configurations Options and 
 
 - CONFIG_X86
 - CONFIG_SOC
@@ -116,6 +116,8 @@ Look at the following Configurations Options
 - CONFIG_SOC_IA32
 - CONFIG_CPU_ATOM
 - CONFIG_CPU_MINUTEIA
+
+Now confirm your answers are correct by looking at the Zephyr Kernel Configuration, x86 SoC & Board Selection
 
 ## Zephyr Kernel Configuration, x86 SoC & Board Selection
 
