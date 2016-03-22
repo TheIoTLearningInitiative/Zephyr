@@ -60,3 +60,9 @@ menuentry "Zephyr Kernel" {
    multiboot /kernel/zephyr.strip
 }
 ```
+
+
+  Booting `Zephyr Kernel'
+
+WARNING: no console will be available to OS
+error: no suitable video mode found.
