@@ -31,13 +31,13 @@ __Developer Guides__
 > Build System User Guide
 > > The Zephyr Kernel’s build system is based on the Kbuild system used in the Linux kernel. This way the kernel embraces the recursive model used in Linux and the configuration model implemented using Kconfig.
 
-> Application Development Primer
+> __Application Development Primer__
 > > This section contains references that explain how to build microkernel and nanokernel applications.
 
-> API Documentation
+> __API Documentation__
 > > This section contains the API documentation automatically extracted from the code. To ease navigation, we have split the APis in nanokernel APIs and microkernel APIs.
 
-> Collaboration Guidelines
+> __Collaboration Guidelines__
 > > Thank you for your interest in collaborating with the Zephyr Project. These guidelines provide the best ways to collaborate with the team: Contributing Code, Communication Tools and Documentation Style Guide
 
 __Reference Guides__
