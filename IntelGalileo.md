@@ -21,5 +21,4 @@ Intel Galileo
 ```sh
     xe1gyq@jessie:~$ cd $ZEPHYR_BASE/samples/hello_world/nanokernel
     xe1gyq@jessie:~$ make BOARD=galileo
-    
 ```
