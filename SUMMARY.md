@@ -9,5 +9,6 @@
 * Zephyr Kernel Primer
    * [Architecture](documentation/Architecture.md)
 * Supported Boards
+   * Intel Galileo
 * [Sandbox](documentation/Sandbox.md)
 
