@@ -6,7 +6,7 @@
 * [Development Environment](documentation/DevelopmentEnvironment.md)
 * [Applications](documentation/Applications.md)
 * [Zephyr Kernel Primer](documentation/ZephyrKernelPrimer.md)
+   * [Architecture](documentation/Architecture.md)
    * Placeholder
-* [Architecture](documentation/Architecture.md)
 * [Sandbox](documentation/Sandbox.md)
 
