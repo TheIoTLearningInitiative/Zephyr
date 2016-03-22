@@ -83,10 +83,14 @@ error: no suitable video mode found.
 Compile and run samples/shell
 
 ```sh
-xe1gyq@jessie:~/zephyr-project/samples/shell$ cd $ZEPHYR_BASE/samples/shell
-xe1gyq@jessie:~/zephyr-project/samples/shell$ make distclean
-xe1gyq@jessie:~/zephyr-project/samples/shell$ make BOARD=galileo
-xe1gyq@jessie:~/zephyr-project/samples/shell$ cp $ZEPHYR_BASE/samples/shell/outdir/zephyr.strip /media/cdrom/kernel/
+    xe1gyq@jessie:~/zephyr-project/samples/shell$ cd $ZEPHYR_BASE/samples/shell
+    xe1gyq@jessie:~/zephyr-project/samples/shell$ make distclean
+    xe1gyq@jessie:~/zephyr-project/samples/shell$ make BOARD=galileo
+    xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd# mount -t vfat /dev/sdb1 /media/sdcard/
+    xe1gyq@jessie:~/zephyr-project/samples/shell$ cp $ZEPHYR_BASE/samples/shell/outdir/zephyr.strip /media/sdcard/kernel/
+    xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd$ umount /media/sdcard/
+    xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd$ 
+
 ```
 
 ```sh
