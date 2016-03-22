@@ -62,5 +62,7 @@ __Supported Boards__
 
 ## Zephyr SDK
 
+> Zephyr’s SDK contains all necessary tools and cross-compilers needed to build the kernel on all supported architectures. Additionally, it includes host tools such as a custom QEMU and a host compiler for building host tools if necessary.
+
 - [Zephyr SDK archive](https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/)
 
