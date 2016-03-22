@@ -62,18 +62,14 @@ menuentry "Zephyr Kernel" {
 ```
 
 ```sh
-Press [Enter] to directly boot.
-Press [F7]    to show boot menu options.
+    Press [Enter] to directly boot.
+    Press [F7]    to show boot menu options.
 ```
 
 ```sh
-```
-
-```sh
-  Booting `Zephyr Kernel'
-
-WARNING: no console will be available to OS
-error: no suitable video mode found.
+    Booting `Zephyr Kernel'
+    WARNING: no console will be available to OS
+    error: no suitable video mode found.
 ```
 
 ## Let´s Get To Work
@@ -93,22 +89,22 @@ Compile and run samples/shell
 ```
 
 ```sh
-WARNING: no console will be available to OS
-error: no suitable video mode found.
-shell> help
-Available commands:
-help
-ping
-ticks
-highticks
-shell> 
-shell> ping
-pong
-shell> ticks
-ticks: 2616
-shell> highticks
-highticks: 438339144
-shell> 
+    WARNING: no console will be available to OS
+    error: no suitable video mode found.
+    shell> help
+    Available commands:
+    help
+    ping
+    ticks
+    highticks
+    shell> 
+    shell> ping
+    pong
+    shell> ticks
+    ticks: 2616
+    shell> highticks
+    highticks: 438339144
+    shell> 
 ```
 
 ### Samples Drivers Grove-Lcd
