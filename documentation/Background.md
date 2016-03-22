@@ -32,4 +32,4 @@
 > > Memory management is the act of managing computer memory at the system level. The essential requirement of memory management is to provide ways to dynamically allocate portions of memory to programs at their request, and free it for reuse when no longer needed. This is critical to any advanced computer system where more than a single process might be underway at any time. [Wikipedia](https://en.wikipedia.org/wiki/Memory_management)
 
 > __Power Management__
-> > Power Management is a feature of some electrical appliances, especially copiers, computers, GPUs and computer peripherals such as monitors and printers, that turns off the power or switches the system to a low-power state when inactive. [Wikipedia](https://en.wikipedia.org/wiki/Power_management)
+> > Power Management is a feature of electrical appliances that turns off the power or switches the system to a low-power state when inactive. [Wikipedia](https://en.wikipedia.org/wiki/Power_management)
