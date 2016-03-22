@@ -150,4 +150,4 @@ Now confirm your answers are correct by looking at the Zephyr Kernel Configurati
     Board Selection (QEMU x86)
     Board Options
     ...
-```sh
+```
