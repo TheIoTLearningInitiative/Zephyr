@@ -98,6 +98,6 @@ Execute "make" or "make all" to build all targets marked with [*]
     Boot Options
 ```
 
-## 
+## Configuration Options Reference Guide
 
-(https://www.zephyrproject.org/doc/reference/kconfig/index.html)
+- [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
