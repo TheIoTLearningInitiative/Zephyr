@@ -119,5 +119,13 @@ Look at the following Configurations Options and
 
 Now confirm your answers are correct by looking at the Zephyr Kernel Configuration, x86 SoC & Board Selection
 
-## Zephyr Kernel Configuration, x86 SoC & Board Selection
+```sh
+    xe1gyq@jessie:~/zephyr-project$ make menuconfig
+    ...
+    x86 SoC Selection (Generic IA32 SoC)
+    x86 Options
+    Board Selection (QEMU x86)
+    Board Options
+    ...
+```sh
 
