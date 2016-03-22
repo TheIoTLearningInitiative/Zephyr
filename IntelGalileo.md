@@ -61,6 +61,8 @@ menuentry "Zephyr Kernel" {
 }
 ```
 
+```sh
+```
 
 ```sh
   Booting `Zephyr Kernel'
