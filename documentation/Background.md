@@ -1,5 +1,8 @@
 # Background
 
+> Single Address Space Operating System
+> > In computer science, a single address space operating system (or SASOS) is an operating system that provides for all processes only one globally shared virtual address space. [Wikipedia](https://en.wikipedia.org/wiki/Single_address_space_operating_system)
+
 > __Monolithic Kernel__
 > > An operating system architecture where the entire operating system is working in kernel space and is alone in supervisor mode. The monolithic model differs from other operating system architectures (such as the microkernel architecture) in that it alone defines a high-level virtual interface over computer hardware. A set of primitives or system calls implement all operating system services such as process management, concurrency, and memory management. Device drivers can be added to the kernel as modules. [Wikipedia](https://en.wikipedia.org/wiki/Monolithic_kernel)
 
