@@ -11,6 +11,10 @@ Architecture
 
 - [Source Tree Structure](https://www.zephyrproject.org/doc/kernel/overview/source_tree.html)
 
+```sh
+    xe1gyq@jessie:~/zephyr-project$ nano include/nanokernel.h
+```
+
 ## Make Help
 
 ```
