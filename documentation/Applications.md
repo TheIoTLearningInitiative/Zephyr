@@ -1,9 +1,5 @@
 # Applications
 
-```
-    xe1gyq@jessie:~/zephyr-project$ 
-```
-
 ### Setting the Project’s Environment Variables
 
 ```sh
