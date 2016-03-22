@@ -29,4 +29,13 @@ Intel Galileo
 ```sh
     xe1gyq@jessie:~$ cd $ZEPHYR_BASE/samples/hello_world/nanokernel
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ make BOARD=galileo
+    make[1]: Entering directory '/home/xe1gyq/zephyr-project'
+    make[2]: Entering directory '/home/xe1gyq/zephyr-project/samples/hello_world/nanokernel/outdir'
+      Using /home/xe1gyq/zephyr-project as source for kernel
+      GEN     ./Makefile
+      CHK     include/generated/version.h
+      CHK     misc/generated/configs.c
+      CHK     include/generated/offsets.h
+    make[2]: Leaving directory '/home/xe1gyq/zephyr-project/samples/hello_world/nanokernel/outdir'
+    make[1]: Leaving directory '/home/xe1gyq/zephyr-project'
 ```
