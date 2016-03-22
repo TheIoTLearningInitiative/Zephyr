@@ -8,6 +8,6 @@
    * [Applications](documentation/Applications.md)
 * Zephyr Kernel Primer
    * [Architecture](documentation/Architecture.md)
-* [Sandbox](documentation/Sandbox.md)
 * Supported Boards
+* [Sandbox](documentation/Sandbox.md)
 
