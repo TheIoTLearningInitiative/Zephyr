@@ -118,3 +118,4 @@ Look at the following Configurations Options
 - CONFIG_CPU_MINUTEIA
 
 ## Zephyr Kernel Configuration, x86 SoC & Board Selection
+
