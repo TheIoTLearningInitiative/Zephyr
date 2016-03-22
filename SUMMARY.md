@@ -4,6 +4,7 @@
 * [Introduction](documentation/Introduction.md)
    * [Terminology](documentation/Terminology.md)
 * Getting Started
+   * Placeholder
 * [Development Environment](documentation/DevelopmentEnvironment.md)
 * [Applications](documentation/Applications.md)
 * [Zephyr Kernel Primer](documentation/ZephyrKernelPrimer.md)
