@@ -12,7 +12,6 @@ Intel Galileo
     remote: Counting objects: 90290, done.
     ...
     
-
 ```
 
 
