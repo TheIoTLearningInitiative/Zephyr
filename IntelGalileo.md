@@ -76,6 +76,8 @@ WARNING: no console will be available to OS
 error: no suitable video mode found.
 ```
 
+## Official Documentation
+
 ```sh
 xe1gyq@jessie:~/zephyr-project/samples/shell$ cd $ZEPHYR_BASE/samples/shell
 xe1gyq@jessie:~/zephyr-project/samples/shell$ make BOARD=galileo
