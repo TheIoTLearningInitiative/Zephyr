@@ -14,4 +14,5 @@ Intel Galileo
     
 ```
 
-
+## Preparing the Boot Device
+$ZEPHYR_BASE/samples/hello_world/nanokernel
