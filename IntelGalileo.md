@@ -1,9 +1,11 @@
 Intel Galileo
 ==
 
+### Official Documentation
+
 ## Creating a GRUB2 Boot Loader Image from a Linux Host
 
-```
+```sh
     root@jessie:~# apt-get install bison autoconf libopts25-dev flex automake
     xe1gyq@jessie:~$ cd $ZEPHYR_BASE
     xe1gyq@jessie:~/zephyr-project$ ./scripts/build_grub.sh
@@ -15,4 +17,7 @@ Intel Galileo
 ```
 
 ## Preparing the Boot Device
-$ZEPHYR_BASE/samples/hello_world/nanokernel
+
+```sh
+    xe1gyq@jessie:~$ cd $ZEPHYR_BASE/samples/hello_world/nanokernel
+```
