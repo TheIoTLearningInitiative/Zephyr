@@ -128,4 +128,3 @@ Now confirm your answers are correct by looking at the Zephyr Kernel Configurati
     Board Options
     ...
 ```sh
-
