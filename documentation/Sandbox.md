@@ -19,12 +19,20 @@ Sandbox
 
 ```sh
     xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib
+```
+
+### Setting the Project’s Environment Variables
+
+```sh
     user@host:~$ cd zephyr-project 
     user@host:~$ ls
     xe1gyq@jessie:~/zephyr-project$ ls
     arch    doc      include  Kconfig         kernel  LICENSE   Makefile.inc  net      scripts  zephyr-env.sh
     boards  drivers  Kbuild   Kconfig.zephyr  lib     Makefile  misc          samples  tests
     xe1gyq@jessie:~/zephyr-project$ source zephyr-env.sh
+```
+
+```sh
     xe1gyq@jessie:~/zephyr-project$ wget https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.7.5-i686/zephyr-sdk-0.7.5-i686-setup.run
     --2016-03-20 00:14:08--  https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.7.5-i686/zephyr-sdk-0.7.5-i686-setup.run
     Resolving nexus.zephyrproject.org (nexus.zephyrproject.org)... 199.19.213.246
