@@ -1,7 +1,7 @@
 Architecture
 ==
 
-##
+## 
 
 ### Clone Repository In Intel Edison
 
@@ -9,19 +9,7 @@ Architecture
     root@edison:~# git clone https://gerrit.zephyrproject.org/r/zephyr --branch v1.1
 ```
 
-## Source Tree
-
-- [Source Tree Structure](https://www.zephyrproject.org/doc/kernel/overview/source_tree.html)
-
-```sh
-    xe1gyq@jessie:~/zephyr-project$ nano include/nanokernel.h
-    xe1gyq@jessie:~/zephyr-project$ nano include/microkernel.h
-    xe1gyq@jessie:~/zephyr-project$ ls include/microkerne/
-    base_api.h        event.h  mailbox.h     memory_pool.h  pipe.h       task.h      ticks.h
-    command_packet.h  fifo.h   memory_map.h  mutex.h        semaphore.h  task_irq.h
-```
-
-## Make Help
+### Make Help
 
 ```
 xe1gyq@jessie:~/zephyr-project$ make help
@@ -89,7 +77,7 @@ Build flags:
 Execute "make" or "make all" to build all targets marked with [*] 
 ```
 
-## Make Menuconfig
+### Make Menuconfig
 
 ```sh
     xe1gyq@jessie:~/zephyr-project$ make menuconfig
@@ -112,6 +100,18 @@ Execute "make" or "make all" to build all targets marked with [*]
     Logging Options
     System Monitoring Options
     Boot Options
+```
+
+## Source Tree
+
+- [Source Tree Structure](https://www.zephyrproject.org/doc/kernel/overview/source_tree.html)
+
+```sh
+    xe1gyq@jessie:~/zephyr-project$ nano include/nanokernel.h
+    xe1gyq@jessie:~/zephyr-project$ nano include/microkernel.h
+    xe1gyq@jessie:~/zephyr-project$ ls include/microkerne/
+    base_api.h        event.h  mailbox.h     memory_pool.h  pipe.h       task.h      ticks.h
+    command_packet.h  fifo.h   memory_map.h  mutex.h        semaphore.h  task_irq.h
 ```
 
 ## Architecture, SoC, Board
