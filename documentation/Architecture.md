@@ -100,11 +100,9 @@ Execute "make" or "make all" to build all targets marked with [*]
     Boot Options
 ```
 
-## Configuration Options Reference Guide
+## Architecture, SoC, Board
 
-- [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
-
-Look at the following Configurations Options and 
+Look at the following Configurations Options under [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
 
 - CONFIG_X86
 - CONFIG_SOC
