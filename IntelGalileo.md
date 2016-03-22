@@ -47,5 +47,6 @@ Intel Galileo
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/sdcard/efi
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/sdcard/efi/boot
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/sdcard/kernel
+    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ cp $ZEPHYR_BASE/samples/hello_world/nanokernel/outdir/zephyr.strip /media/cdrom/kernel/
     
 ```
