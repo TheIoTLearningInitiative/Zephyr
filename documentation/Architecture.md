@@ -110,7 +110,9 @@ Look at the source tree
 
 - [Source Tree Structure](https://www.zephyrproject.org/doc/kernel/overview/source_tree.html)
 
-### Microkernel, NanoKernel
+### Nanokernel, Microkernel
+
+Review nanokernel and microkernel code
 
 ```sh
     xe1gyq@jessie:~/zephyr-project$ nano include/nanokernel.h
