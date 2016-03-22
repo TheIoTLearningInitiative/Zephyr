@@ -76,7 +76,7 @@ WARNING: no console will be available to OS
 error: no suitable video mode found.
 ```
 
-## Let´s Get To Work
+## Let´s Get To Work, Samples Shell
 
 Compile and run samples/shell
 
