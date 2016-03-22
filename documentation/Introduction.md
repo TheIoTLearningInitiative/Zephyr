@@ -28,7 +28,7 @@ __Getting Started__
 
 __Developer Guides__
 
-> Build System User Guide
+> __Build System User Guide__
 > > The Zephyr Kernel’s build system is based on the Kbuild system used in the Linux kernel. This way the kernel embraces the recursive model used in Linux and the configuration model implemented using Kconfig.
 
 > __Application Development Primer__
