@@ -4,6 +4,13 @@
 
 > Zephyr Project is a small, scalable real-time operating system for use on resource-constrained systems supporting multiple architectures.  Developers are able to tailor their optimal solution. As a true open source project, the community can evolve the Zephyr Project to support new hardware, developer tools, sensor and device drivers.  Advancements in security, device management capabilities, connectivity stacks and file systems can be easily implemented. [Zephyr Homepage](https://www.zephyrproject.org/)
 
+Features
+
+- Security
+- Open Source
+- Connectivity
+- Modular
+
 ## Zephyr Project Documentation
 
 - [Zephyr Project Documentation Homepage](https://www.zephyrproject.org/doc/index.html)
