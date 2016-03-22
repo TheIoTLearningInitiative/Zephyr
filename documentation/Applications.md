@@ -156,8 +156,6 @@
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ 
 ```
 
-Build for 
-
 ## x86 Emulation QEMU
 
 ```sh
