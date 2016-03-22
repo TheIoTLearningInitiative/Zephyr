@@ -38,4 +38,5 @@ Intel Galileo
       CHK     include/generated/offsets.h
     make[2]: Leaving directory '/home/xe1gyq/zephyr-project/samples/hello_world/nanokernel/outdir'
     make[1]: Leaving directory '/home/xe1gyq/zephyr-project'
+    
 ```
