@@ -154,8 +154,9 @@
     make[2]: Leaving directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
     make[1]: Leaving directory '/home/xe1gyq/zephyr-project'
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ 
-    
 ```
+
+Build for 
 
 ## x86 Emulation QEMU
 
