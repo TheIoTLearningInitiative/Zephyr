@@ -7,6 +7,8 @@
     xe1gyq@jessie:~/zephyr-project$ source zephyr-env.sh
 ```
 
+### Building a Sample Application
+
 ```sh
     xe1gyq@jessie:~$ cd $ZEPHYR_BASE/samples/hello_world/microkernel
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ make
@@ -139,6 +141,20 @@
       BIN     zephyr.bin
     make[2]: Leaving directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
     make[1]: Leaving directory '/home/xe1gyq/zephyr-project'
+    xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ make distclean
+    make[1]: Entering directory '/home/xe1gyq/zephyr-project'
+    make[2]: Entering directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
+      CLEAN   .
+      CLEAN   misc/generated/sysgen/kernel_main.c misc/generated/sysgen/sysgen.h misc/generated/sysgen/prj.mdef .tmp_zephyr.prebuilt zephyr.lnk zephyr.map zephyr.elf zephyr.lst zephyr.bin zephyr.strip staticIdt.o linker.cmd final-linker.cmd
+      CLEAN   scripts/basic
+      CLEAN   scripts/gen_idt
+      CLEAN   scripts/kconfig
+      CLEAN   include/config include/generated
+      CLEAN   .config .config.old include/generated/version.h
+    make[2]: Leaving directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
+    make[1]: Leaving directory '/home/xe1gyq/zephyr-project'
+    xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ 
+    
 ```
 
 ## x86 Emulation QEMU
