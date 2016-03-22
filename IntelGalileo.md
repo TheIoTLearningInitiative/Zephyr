@@ -123,4 +123,4 @@ Booting the Galileo Board
     xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd$ 
 ```
 
-Booting the Galileo Board
+Booting the Galileo Board ... LCD Working_
