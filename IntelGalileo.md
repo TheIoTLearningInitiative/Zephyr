@@ -78,7 +78,7 @@ error: no suitable video mode found.
 
 ## Let´s Get To Work
 
-
+Compile and run samples/shell
 
 ```sh
 xe1gyq@jessie:~/zephyr-project/samples/shell$ cd $ZEPHYR_BASE/samples/shell
