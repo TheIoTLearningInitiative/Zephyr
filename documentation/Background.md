@@ -22,4 +22,5 @@
 > __Multithreading__
 > > Multithreading is mainly found in multitasking operating systems. Multithreading is a widespread programming and execution model that allows multiple threads to exist within the context of one process. These threads share the process's resources, but are able to execute independently. The threaded programming model provides developers with a useful abstraction of concurrent execution. [Wikipedia](https://en.wikipedia.org/wiki/Thread_(computing))
 
-
+> __Interrup Handler__
+> > In computer systems programming, an interrupt handler, also known as an interrupt service routine or ISR, is a callback function in microcontroller firmware, an operating system or a device driver, whose execution is triggered by the reception of an interrupt. In general, interrupts and their handlers are used to handle high-priority conditions that require the interruption of the current code the processor is executing. [Wikipedia](https://en.wikipedia.org/wiki/Interrupt_handler)
