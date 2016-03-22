@@ -103,7 +103,7 @@ Execute "make" or "make all" to build all targets marked with [*]
 ## Architecture, SoC, Board
 
 Look at the following Configurations Options under [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
-and identify which SoC i tight to which Board for the x86 Architecrure
+and identify which SoC i tight to which Board for the x86 Architecture
 
 - CONFIG_X86
 - CONFIG_SOC
