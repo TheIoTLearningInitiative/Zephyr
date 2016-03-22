@@ -10,7 +10,7 @@ Architecture
 ## Make Help
 
 ```
-xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ make help
+xe1gyq@jessie:~/zephyr-project$ make help
 Cleaning targets:
   clean		  - Remove most generated files but keep configuration and backup files
   mrproper	  - Remove all generated files + config + various backup files
