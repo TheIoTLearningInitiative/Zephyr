@@ -32,6 +32,8 @@ Sandbox
     xe1gyq@jessie:~/zephyr-project$ source zephyr-env.sh
 ```
 
+### Installing the Zephyr Software Development Kit
+
 ```sh
     xe1gyq@jessie:~/zephyr-project$ wget https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.7.5-i686/zephyr-sdk-0.7.5-i686-setup.run
     --2016-03-20 00:14:08--  https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.7.5-i686/zephyr-sdk-0.7.5-i686-setup.run
