@@ -7,6 +7,5 @@
 * [Applications](documentation/Applications.md)
 * [Zephyr Kernel Primer](documentation/ZephyrKernelPrimer.md)
    * [Architecture](documentation/Architecture.md)
-   * Placeholder
 * [Sandbox](documentation/Sandbox.md)
 
