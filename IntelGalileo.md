@@ -1,6 +1,8 @@
 Intel Galileo
 ==
 
+## Creating a GRUB2 Boot Loader Image from a Linux Host
+
 ```
     root@jessie:~# apt-get install bison autoconf libopts25-dev flex automake
     xe1gyq@jessie:~$ cd $ZEPHYR_BASE
