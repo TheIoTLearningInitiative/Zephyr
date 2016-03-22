@@ -122,3 +122,5 @@ Booting the Galileo Board
     xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd$ umount /media/sdcard/
     xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd$ 
 ```
+
+Booting the Galileo Board
