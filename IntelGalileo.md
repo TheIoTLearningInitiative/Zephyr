@@ -17,7 +17,8 @@ Intel Galileo
     make[1]: Leaving directory '/home/xe1gyq/zephyr-project/scripts/grub/src'
     ~/zephyr-project/scripts/grub ~/zephyr-project
     ~/zephyr-project
-    xe1gyq@jessie:~/zephyr-project$ 
+    xe1gyq@jessie:~/zephyr-project$ ls $ZEPHYR_BASE/scripts/grub/bin/grub.efi
+    /home/xe1gyq/zephyr-project/scripts/grub/bin/grub.efi
 ```
 
 ### Preparing the Boot Device
