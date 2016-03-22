@@ -61,6 +61,8 @@ menuentry "Zephyr Kernel" {
 }
 ```
 
+Booting the Galileo Board
+
 ```sh
     Press [Enter] to directly boot.
     Press [F7]    to show boot menu options.
