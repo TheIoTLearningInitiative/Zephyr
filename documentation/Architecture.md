@@ -127,16 +127,18 @@ Review nanokernel and microkernel code
 Look at the following Configurations Options under [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
 and identify which SoC is tight to which Board for the x86 Architecture
 
-- CONFIG_X86
-- CONFIG_SOC
-- CONFIG_X86_IAMCU
-- CONFIG_SOC_QUARK_D2000
-- CONFIG_SOC_QUARK_X1000
-- CONFIG_SOC_ATOM
-- CONFIG_SOC_QUARK_SE
-- CONFIG_SOC_IA32
-- CONFIG_CPU_ATOM
-- CONFIG_CPU_MINUTEIA
+```sh
+    CONFIG_X86
+    CONFIG_SOC
+    CONFIG_X86_IAMCU
+    CONFIG_SOC_QUARK_D2000
+    CONFIG_SOC_QUARK_X1000
+    CONFIG_SOC_ATOM
+    CONFIG_SOC_QUARK_SE
+    CONFIG_SOC_IA32
+    CONFIG_CPU_ATOM
+    CONFIG_CPU_MINUTEIA
+```
 
 Now confirm your answers are correct by looking at the Zephyr Kernel Configuration, x86 SoC & Board Selection
 
