@@ -116,4 +116,5 @@ shell>
     xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd# mount -t vfat /dev/sdb1 /media/sdcard/
     xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd# cp $ZEPHYR_BASE/samples/drivers/grove_lcd/outdir/zephyr.strip /media/sdcard/kernel/
     xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd$ umount /media/sdcard/
+    xe1gyq@jessie:~/zephyr-project/samples/drivers/grove_lcd$ 
 ```
