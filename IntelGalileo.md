@@ -47,5 +47,4 @@ Intel Galileo
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/cdrom/efi
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/cdrom/efi/boot
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/cdrom/kernel
-
 ```
