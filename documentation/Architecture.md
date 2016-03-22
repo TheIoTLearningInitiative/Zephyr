@@ -1,7 +1,7 @@
 Architecture
 ==
 
-## 
+## Some Learning
 
 ### Zephyr Source Code
 
