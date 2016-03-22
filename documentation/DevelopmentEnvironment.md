@@ -24,8 +24,8 @@ Development Environment
 ### Setting the Project’s Environment Variables
 
 ```sh
-    user@host:~$ cd zephyr-project 
-    user@host:~$ ls
+    xe1gyq@jessie:~$ cd zephyr-project 
+    xe1gyq@jessie:~$ ls
     xe1gyq@jessie:~/zephyr-project$ ls
     arch    doc      include  Kconfig         kernel  LICENSE   Makefile.inc  net      scripts  zephyr-env.sh
     boards  drivers  Kbuild   Kconfig.zephyr  lib     Makefile  misc          samples  tests
