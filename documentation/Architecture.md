@@ -5,13 +5,13 @@ Architecture
 
 ### Get Zephyr Source Code
 
-```
+```sh
     root@edison:~# git clone https://gerrit.zephyrproject.org/r/zephyr --branch v1.1
 ```
 
 ### Make Help
 
-```
+```sh
 xe1gyq@jessie:~/zephyr-project$ make help
 Cleaning targets:
   clean		  - Remove most generated files but keep configuration and backup files
