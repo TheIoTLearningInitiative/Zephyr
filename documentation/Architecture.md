@@ -97,3 +97,7 @@ Execute "make" or "make all" to build all targets marked with [*]
     System Monitoring Options
     Boot Options
 ```
+
+## 
+
+(https://www.zephyrproject.org/doc/reference/kconfig/index.html)
