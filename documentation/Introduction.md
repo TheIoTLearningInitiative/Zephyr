@@ -42,7 +42,7 @@ __Developer Guides__
 
 __Reference Guides__
 
-> Configuration Options Reference Guide
+> __Configuration Options Reference Guide__
 > > Kconfig files describe the configuration symbols supported in the build system... The configuration options’ information is extracted directly from Kconfig ...
 
 __Supported Boards__
