@@ -1,6 +1,6 @@
 # Background
 
-> Single Address Space Operating System
+> __Single Address Space Operating System__
 > > In computer science, a single address space operating system (or SASOS) is an operating system that provides for all processes only one globally shared virtual address space. [Wikipedia](https://en.wikipedia.org/wiki/Single_address_space_operating_system)
 
 > __Monolithic Kernel__
