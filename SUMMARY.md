@@ -2,7 +2,7 @@
 
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
-* Background
+* [Background](documentation/Background.md)
 * [Architecture](documentation/Architecture.md)
 * [Sandbox](documentation/Sandbox.md)
 
