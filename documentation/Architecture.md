@@ -102,11 +102,13 @@ Execute "make" or "make all" to build all targets marked with [*]
     Boot Options
 ```
 
-## Source Tree
+## Now Some Action
+
+### Source Tree
 
 - [Source Tree Structure](https://www.zephyrproject.org/doc/kernel/overview/source_tree.html)
 
-## Microkernel, NanoKernel
+### Microkernel, NanoKernel
 
 ```sh
     xe1gyq@jessie:~/zephyr-project$ nano include/nanokernel.h
@@ -116,7 +118,7 @@ Execute "make" or "make all" to build all targets marked with [*]
     command_packet.h  fifo.h   memory_map.h  mutex.h        semaphore.h  task_irq.h
 ```
 
-## Architecture, SoC, Board
+### Architecture, SoC, Board
 
 Look at the following Configurations Options under [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
 and identify which SoC i tight to which Board for the x86 Architecture
