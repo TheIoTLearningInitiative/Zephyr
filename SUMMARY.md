@@ -10,6 +10,6 @@
    * [Architecture](documentation/Architecture.md)
 * Supported Boards
    * [Intel Galileo](IntelGalileo.md)
-* Workshops
+* [Workshops](documentation/Workshops.md)
 * [Sandbox](documentation/Sandbox.md)
 
