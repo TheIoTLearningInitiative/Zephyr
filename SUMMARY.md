@@ -11,4 +11,5 @@
 * Supported Boards
    * [Intel Galileo](IntelGalileo.md)
 * [Sandbox](documentation/Sandbox.md)
+* Workshops
 
