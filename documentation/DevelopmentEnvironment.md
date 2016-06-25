@@ -153,6 +153,13 @@ abraham@aarcemor-desk:~$ export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
 abraham@aarcemor-desk:~$ 
 ```
 
+```sh
+abraham@aarcemor-desk:~$ cat <<EOF > ~/.zephyrrc
+export ZEPHYR_GCC_VARIANT=zephyr
+export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
+EOF
+```
+
 ## Download the Code
   
 ```sh
