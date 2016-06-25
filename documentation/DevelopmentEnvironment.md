@@ -191,7 +191,7 @@ abraham@aarcemor-desk:~/zephyr-project$ source zephyr-env.sh
 abraham@aarcemor-desk:~/zephyr-project$ 
 ```
 
-## Setting the Project’s Environment Variables
+## Building and Running an Application
 
 ```sh
 abraham@aarcemor-desk:~/zephyr-project$ cd $ZEPHYR_BASE/samples/hello_world/microkernel
