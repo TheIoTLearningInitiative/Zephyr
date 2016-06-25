@@ -1,6 +1,6 @@
 # Development Environment
 
-# Development Environment Setup Linux
+# Development Environment Setup on Linux
 
 ## Libraries Update
 
