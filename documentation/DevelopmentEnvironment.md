@@ -107,6 +107,10 @@ Reading package lists... Done
 abraham@aarcemor-desk:~$ 
 ```
 
+```sh
+    xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib  python3-ply
+```
+
 ## Download the Code
 
 
@@ -128,10 +132,6 @@ xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 \
 ```
 
 ## Development Environment Setup on Linux
-
-```sh
-    xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib  python3-ply
-```
 
 ### Setting the Project’s Environment Variables
 
