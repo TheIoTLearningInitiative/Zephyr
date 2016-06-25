@@ -108,8 +108,7 @@ abraham@aarcemor-desk:~$
 ```
 
 ```sh
-xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 \
-  g++-multilib python3-ply
+xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib python3-ply
 ```
 
 ## Download the Code
