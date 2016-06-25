@@ -1,3 +1,3 @@
 # Workshops
 
-- [](https://www.gitbook.com/book/flaviodevnull/rtos/details)
+- [Intel Mexico Zephyr Workshop](https://www.gitbook.com/book/flaviodevnull/rtos/details)
