@@ -100,19 +100,24 @@ Hit http://mx.archive.ubuntu.com trusty/restricted Translation-en
 Hit http://mx.archive.ubuntu.com trusty/universe Translation-en                
 Ign http://mx.archive.ubuntu.com trusty/main Translation-en_US                 
 Ign http://mx.archive.ubuntu.com trusty/multiverse Translation-en_US           
-Ign http://mx.archive.ubuntu.com trusty/restricted Translation-en_US           
+Ign http://mx.archive.ubuntu.com trusty/restrict
+```sh
+xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 \
+  g++-multilib python3-ply
+```
+ed Translation-en_US           
 Ign http://mx.archive.ubuntu.com trusty/universe Translation-en_US             
-Fetched 6 655 kB in 25s (264 kB/s)                                             
+Fetched 6 655 kB in 25s (264 kB/s)                                            
 Reading package lists... Done
 abraham@aarcemor-desk:~$ 
 ```
-
-## Download the Code
 
 ```sh
 xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 \
   g++-multilib python3-ply
 ```
+
+## Download the Code
   
 ```sh
     xe1gyq@jessie:~$ git clone https://gerrit.zephyrproject.org/r/zephyr zephyr-project
