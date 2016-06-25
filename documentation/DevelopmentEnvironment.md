@@ -130,7 +130,6 @@ Saving to: ‘zephyr-sdk-0.8-i686-setup.run’
 abraham@aarcemor-desk:~$ chmod +x zephyr-sdk-0.8-i686-setup.run 
 abraham@aarcemor-desk:~$ ./zephyr-sdk-<version>-i686-setup.run
 
-
 ```
 
 ## Download the Code
