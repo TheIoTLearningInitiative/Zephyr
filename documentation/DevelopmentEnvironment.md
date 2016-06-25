@@ -144,7 +144,7 @@ Success
  [*] Installing nios2 tools... 
  [*] Installing additional host tools... 
 Success installing SDK. SDK is ready to be used.
-abraham@aarcemor-desk:~$
+abraham@aarcemor-desk:~$ 
 ```
 
 ## Download the Code
