@@ -33,6 +33,3 @@ Terminology
 
 > __Power Management__
 > > Power Management is a feature of electrical appliances that turns off the power or switches the system to a low-power state when inactive. [Wikipedia](https://en.wikipedia.org/wiki/Power_management)
-
-
-
