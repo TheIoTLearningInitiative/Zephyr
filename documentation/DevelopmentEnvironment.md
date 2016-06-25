@@ -147,6 +147,12 @@ Success installing SDK. SDK is ready to be used.
 abraham@aarcemor-desk:~$ 
 ```
 
+```sh
+abraham@aarcemor-desk:~$ export ZEPHYR_GCC_VARIANT=zephyr
+abraham@aarcemor-desk:~$ export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
+abraham@aarcemor-desk:~$ 
+```
+
 ## Download the Code
   
 ```sh
