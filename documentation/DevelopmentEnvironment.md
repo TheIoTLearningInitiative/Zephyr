@@ -163,6 +163,11 @@ EOF
 ## Download the Code
   
 ```sh
+abraham@aarcemor-desk:~$ git config --global --unset http.proxy
+abraham@aarcemor-desk:~$ git config --global --unset https.proxy
+```
+
+```sh
 xe1gyq@jessie:~$ git clone https://gerrit.zephyrproject.org/r/zephyr zephyr-project
 Cloning into 'zephyr-project'...
 remote: Counting objects: 3, done
