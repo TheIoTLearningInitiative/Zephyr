@@ -109,6 +109,12 @@ abraham@aarcemor-desk:~$
 
 ## Download the Code
 
+
+```sh
+xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 \
+  g++-multilib python3-ply
+```
+  
 ```sh
     xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib
     xe1gyq@jessie:~$ git clone https://gerrit.zephyrproject.org/r/zephyr zephyr-project
