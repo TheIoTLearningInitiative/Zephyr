@@ -181,12 +181,14 @@ Checking connectivity... done.
 ### Setting the Project’s Environment Variables
 
 ```sh
-    xe1gyq@jessie:~$ cd zephyr-project 
-    xe1gyq@jessie:~$ ls
-    xe1gyq@jessie:~/zephyr-project$ ls
-    arch    doc      include  Kconfig         kernel  LICENSE   Makefile.inc  net      scripts  zephyr-env.sh
-    boards  drivers  Kbuild   Kconfig.zephyr  lib     Makefile  misc          samples  tests
-    xe1gyq@jessie:~/zephyr-project$ source zephyr-env.sh
+abraham@aarcemor-desk:~$ source ~/.zephyrrc
+abraham@aarcemor-desk:~$ cd zephyr-project/
+abraham@aarcemor-desk:~/zephyr-project$ ls
+arch    drivers  Kbuild          kernel   MAINTAINERS   misc     scripts
+boards  ext      Kconfig         lib      Makefile      net      tests
+doc     include  Kconfig.zephyr  LICENSE  Makefile.inc  samples  zephyr-env.sh
+abraham@aarcemor-desk:~/zephyr-project$ source zephyr-env.sh 
+abraham@aarcemor-desk:~/zephyr-project$ 
 ```
 
 ### Installing the Zephyr Software Development Kit
