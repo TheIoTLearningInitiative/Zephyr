@@ -1,5 +1,7 @@
 # Development Environment
 
+# Development Environment Setup Linux
+
 ## Libraries Update
 
 ```sh
@@ -111,20 +113,7 @@ abraham@aarcemor-desk:~$
 xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib python3-ply
 ```
 
-## Download the Code
-  
-```sh
-    xe1gyq@jessie:~$ git clone https://gerrit.zephyrproject.org/r/zephyr zephyr-project
-    Cloning into 'zephyr-project'...
-    remote: Counting objects: 3, done
-    remote: Finding sources: 100% (3/3)
-    remote: Total 60526 (delta 0), reused 60526 (delta 0)
-    Receiving objects: 100% (60526/60526), 19.74 MiB | 1.09 MiB/s, done.
-    Resolving deltas: 100% (40213/40213), done.
-    Checking connectivity... done.
-```
-
-## Development Environment Setup on Linux
+## Development Environment SDK
 
 ```sh
 abraham@aarcemor-desk:~$ wget https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.8-i686/zephyr-sdk-0.8-i686-setup.run--2016-06-25 11:48:38--  https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.8-i686/zephyr-sdk-0.8-i686-setup.run
@@ -134,6 +123,19 @@ HTTP request sent, awaiting response... 200 OK
 Length: 378809314 (361M) [application/octet-stream]
 Saving to: ‘zephyr-sdk-0.8-i686-setup.run’
 
+```
+
+## Download the Code
+  
+```sh
+xe1gyq@jessie:~$ git clone https://gerrit.zephyrproject.org/r/zephyr zephyr-project
+Cloning into 'zephyr-project'...
+remote: Counting objects: 3, done
+remote: Finding sources: 100% (3/3)
+remote: Total 60526 (delta 0), reused 60526 (delta 0)
+Receiving objects: 100% (60526/60526), 19.74 MiB | 1.09 MiB/s, done.
+Resolving deltas: 100% (40213/40213), done.
+Checking connectivity... done.
 ```
 
 ### Setting the Project’s Environment Variables
