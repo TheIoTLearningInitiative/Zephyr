@@ -35,3 +35,6 @@ Terminology
 
 > __Power Management__
 > > Power Management is a feature of electrical appliances that turns off the power or switches the system to a low-power state when inactive. [Wikipedia](https://en.wikipedia.org/wiki/Power_management)
+
+> __SCADA__
+> > Supervisory control and data acquisition (SCADA) is a system for remote monitoring and control that operates with coded signals over communication channels (using typically one communication channel per remote station). The control system may be combined with a data acquisition system by adding the use of coded signals over communication channels to acquire information about the status of the remote equipment for display or for recording functions. [Wikipedia](https://en.wikipedia.org/wiki/SCADA)
