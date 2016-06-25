@@ -393,4 +393,3 @@ abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$
      xe1gyq@jessie:~/zephyr-project$ cd
      xe1gyq@jessie:~$ 
 ```
-
