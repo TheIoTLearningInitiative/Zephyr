@@ -355,4 +355,3 @@ make[2]: Leaving directory `/home/abraham/zephyr-project/samples/hello_world/mic
 make[1]: Leaving directory `/home/abraham/zephyr-project'
 abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ 
 ```
-
