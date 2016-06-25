@@ -130,7 +130,7 @@ xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 \
 ## Development Environment Setup on Linux
 
 ```sh
-    xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib
+    xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib  python3-ply
 ```
 
 ### Setting the Project’s Environment Variables
