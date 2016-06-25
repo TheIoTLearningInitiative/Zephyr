@@ -128,7 +128,14 @@ Saving to: ‘zephyr-sdk-0.8-i686-setup.run’
 2016-06-25 11:54:21 (1.06 MB/s) - ‘zephyr-sdk-0.8-i686-setup.run’ saved [378809314/378809314]
 
 abraham@aarcemor-desk:~$ chmod +x zephyr-sdk-0.8-i686-setup.run 
-abraham@aarcemor-desk:~$ ./zephyr-sdk-<version>-i686-setup.run
+abraham@aarcemor-desk:~$ sudo ./zephyr-sdk-<version>-i686-setup.run
+[sudo] password for abraham: 
+Verifying archive integrity... All good.
+Uncompressing SDK for Zephyr  100%  
+Enter target directory for SDK (default: /opt/zephyr-sdk/): 
+Installing SDK to /opt/zephyr-sdk
+Creating directory /opt/zephyr-sdk
+Success
 
 ```
 
