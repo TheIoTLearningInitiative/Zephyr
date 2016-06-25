@@ -123,6 +123,11 @@ HTTP request sent, awaiting response... 200 OK
 Length: 378809314 (361M) [application/octet-stream]
 Saving to: ‘zephyr-sdk-0.8-i686-setup.run’
 
+100%[======================================>] 378 809 314 1.29MB/s   in 5m 42s 
+
+2016-06-25 11:54:21 (1.06 MB/s) - ‘zephyr-sdk-0.8-i686-setup.run’ saved [378809314/378809314]
+
+abraham@aarcemor-desk:~$ 
 ```
 
 ## Download the Code
