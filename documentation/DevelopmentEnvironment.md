@@ -1,7 +1,6 @@
-Development Environment
-==
+# Development Environment
 
-## Download the Code
+## Libraries Update
 
 ```sh
 abraham@aarcemor-desk:~$ sudo apt-get update
@@ -106,8 +105,9 @@ Ign http://mx.archive.ubuntu.com trusty/universe Translation-en_US
 Fetched 6 655 kB in 25s (264 kB/s)                                             
 Reading package lists... Done
 abraham@aarcemor-desk:~$ 
-
 ```
+
+## Download the Code
 
 ```sh
     xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g++-multilib
