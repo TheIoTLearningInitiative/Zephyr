@@ -5,7 +5,7 @@
    * [Terminology](documentation/Terminology.md)
 * Getting Started
    * [Development Environment](documentation/DevelopmentEnvironment.md)
-   * [Applications](documentation/Applications.md)
+   * [Building and Running an Application](documentation/Applications.md)
 * Zephyr Kernel Primer
    * [Architecture](documentation/Architecture.md)
 * Supported Boards
