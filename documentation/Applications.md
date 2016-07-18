@@ -1,5 +1,5 @@
-Applications
-==
+# Applications
+
 
 ### Setting the Project’s Environment Variables
 
