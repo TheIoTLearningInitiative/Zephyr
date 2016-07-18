@@ -3,12 +3,6 @@ Architecture
 
 ## Wait! Let´s ...
 
-### Get Zephyr Source Code
-
-```sh
-    root@edison:~# git clone https://gerrit.zephyrproject.org/r/zephyr --branch v1.1
-```
-
 ### Make Help
 
 ```sh
