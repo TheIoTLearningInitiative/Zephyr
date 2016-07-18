@@ -56,7 +56,7 @@ Supported Boards:
   make BOARD=qemu_x86_iamcu           - Build for qemu_x86_iamcu
   make BOARD=quark_d2000_crb          - Build for quark_d2000_crb
   make BOARD=quark_se_devboard        - Build for quark_se_devboard
-  make BOARD=quark_se_sss_devboard    - Build for quark_se_sss_devboard
+  mae BOARD=quark_se_sss_devboard    - Build for quark_se_sss_devboard
   make BOARD=stm32_mini_a15           - Build for stm32_mini_a15
 
 
