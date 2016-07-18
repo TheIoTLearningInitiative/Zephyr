@@ -11,5 +11,6 @@
 * Supported Boards
    * [Intel Galileo](IntelGalileo.md)
 * [Workshops](documentation/Workshops.md)
+   * Intel Mexico Zephyr Workshop
 * [Sandbox](documentation/Sandbox.md)
 
