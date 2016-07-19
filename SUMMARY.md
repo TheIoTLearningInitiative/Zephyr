@@ -27,6 +27,6 @@
        * [Laboratory Arduino 101](documentation/Laboratoryv2Arduino101.md)
            * [Samples Shell](documentation/SamplesShell.md)
            * [Samples Net Mqtt Shell](documentation/SamplesNetMqttShell.md)
-* Wrap-Up
+* [Wrap-Up](documentation/WrapUp.md)
 * [Sandbox](documentation/Sandbox.md)
 
