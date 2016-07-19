@@ -227,3 +227,17 @@ abraham@aarcemor-desk:~/zephyr-project/samples/shell$
 ```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ sudo dfu-util -a x86_app -D outdir/zephyr.bin
 ```
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ sudo dfu-util -a x86_app -D outdir/zephyr.bin
+[sudo] password for abraham: 
+dfu-util 0.7
+
+Copyright 2005-2008 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2012 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to dfu-util@lists.gnumonks.org
+
+No DFU capable USB device found
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+```
