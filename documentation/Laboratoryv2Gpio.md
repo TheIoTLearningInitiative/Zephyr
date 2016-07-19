@@ -18,3 +18,6 @@ gpio_k64.h           gpio_sch.c        Kconfig.k64         Makefile
 abraham@aarcemor-desk:~/zephyr-project/drivers/gpio$ 
 ```
 
+```sh
+abraham@aarcemor-desk:~/zephyr-project/drivers/gpio$ nano gpio_qmsi.c
+```
