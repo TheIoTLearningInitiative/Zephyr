@@ -32,6 +32,9 @@ abraham@aarcemor-desk:~/zephyr-project/arch$ ls nios2/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls nios2/soc
 nios2e-zephyr  nios2f-zephyr  nios2-qemu
+```
+
+```sh
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls x86/
 core  debug  defconfig  include  Kbuild  Kconfig  Makefile  soc
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls x86/soc/
