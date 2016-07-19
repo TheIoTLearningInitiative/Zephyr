@@ -38,4 +38,13 @@ struct gpio_qmsi_runtime {
 ...
 
 int gpio_qmsi_init(struct device *dev);
+
+...
+
+static inline int gpio_qmsi_write(struct device *port,
+                                  int access_op, uint32_t pin, uint32_t value)
+
+...
+
+
 ```
