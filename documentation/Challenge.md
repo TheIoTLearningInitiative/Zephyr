@@ -1,6 +1,6 @@
 # Challenge
 
-# 01 Connectivity Serial Arduino IDE
+# 01 Tbd
 
 [Section](Link)
 
