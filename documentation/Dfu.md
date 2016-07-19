@@ -7,12 +7,15 @@
 ```sh
 abraham@aarcemor-desk:~$ git clone git://git.code.sf.net/p/dfu-util/dfu-util
 Cloning into 'dfu-util'...
-remote: Counting objects: 1051, done.
-remote: Compressing objects: 100% (326/326), done.
-remote: Total 1051 (delta 718), reused 1051 (delta 718), pack-reused 0
-Receiving objects: 100% (1051/1051), 209.68 KiB | 147.00 KiB/s, done.
-Resolving deltas: 100% (718/718), done.
+remote: Counting objects: 1825, done.
+remote: Compressing objects: 100% (611/611), done.
+remote: Total 1825 (delta 1302), reused 1672 (delta 1207)
+Receiving objects: 100% (1825/1825), 371.87 KiB | 64.00 KiB/s, done.
+Resolving deltas: 100% (1302/1302), done.
 Checking connectivity... done.
+abraham@aarcemor-desk:~$ 
+
+```sh
 abraham@aarcemor-desk:~$ cd dfu-util/
 abraham@aarcemor-desk:~/dfu-util$ ls
 autogen.sh  configure.ac  device-logs  doc          README  TODO
