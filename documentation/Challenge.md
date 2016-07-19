@@ -6,4 +6,4 @@
 
 Instruction
 
-    Make a basic serial communication between Intel Edison (Python) and Arduino 101 / Genuino 101 (Arduino IDE)
+> Tbd
