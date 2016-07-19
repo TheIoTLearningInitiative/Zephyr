@@ -194,3 +194,30 @@ make[1]: Leaving directory `/home/abraham/zephyr-project'
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
 ```
 
+## Kernel Dmesg
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ dmesg
+...
+[26110.263053] usb 3-1: new full-speed USB device number 8 using xhci_hcd
+[26110.396749] usb 3-1: New USB device found, idVendor=0403, idProduct=6001
+[26110.396752] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[26110.396754] usb 3-1: Product: FT232R USB UART
+[26110.396755] usb 3-1: Manufacturer: FTDI
+[26110.396757] usb 3-1: SerialNumber: AL017LI9
+[26110.399480] ftdi_sio 3-1:1.0: FTDI USB Serial Device converter detected
+[26110.399510] usb 3-1: Detected FT232RL
+[26110.399513] usb 3-1: Number of endpoints 2
+[26110.399514] usb 3-1: Endpoint 1 MaxPacketSize 64
+[26110.399515] usb 3-1: Endpoint 2 MaxPacketSize 64
+[26110.399517] usb 3-1: Setting MaxPacketSize 64
+[26110.399836] usb 3-1: FTDI USB Serial Device converter now attached to ttyUSB0
+[29671.859244] usb 3-2: USB disconnect, device number 7
+[29680.178952] usb 3-2: new full-speed USB device number 9 using xhci_hcd
+[29680.369642] usb 3-2: New USB device found, idVendor=8087, idProduct=0aba
+[29680.369647] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[29680.369649] usb 3-2: Product: ARDUINO 101
+[29680.369651] usb 3-2: Manufacturer: Intel
+[29680.369653] usb 3-2: SerialNumber: AE6642SQ60400W3
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+```
