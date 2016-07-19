@@ -240,3 +240,31 @@ Please report bugs to dfu-util@lists.gnumonks.org
 No DFU capable USB device found
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
 ```
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ sudo dfu-util -a x86_app -D outdir/zephyr.bin
+dfu-util 0.7
+
+Copyright 2005-2008 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2012 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to dfu-util@lists.gnumonks.org
+
+Opening DFU capable USB device... ID 8087:0aba
+Run-time device DFU version 0011
+Found DFU: [8087:0aba] devnum=0, cfg=1, intf=0, alt=2, name="x86_app"
+Claiming USB DFU Interface...
+Setting Alternate Setting #2 ...
+Determining device status: state = dfuIDLE, status = 0
+dfuIDLE, continuing
+DFU mode device DFU version 0011
+Device returned transfer size 2048
+No valid DFU suffix signature
+Warning: File has no DFU suffix
+bytes_per_hash=349
+Copying data from PC to DFU device
+Starting download: [##################################################] finished!
+state(2) = dfuIDLE, status(0) = No error condition is present
+Done!
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+```
