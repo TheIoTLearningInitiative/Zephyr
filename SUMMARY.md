@@ -11,7 +11,7 @@
    * [Building and Running an Application](documentation/Applications.md)
 * Zephyr Kernel Primer
    * [Architecture](documentation/Architecture.md)
-   * Boards
+   * [Boards](documentation/Boards.md)
 * Supported Boards
    * [Intel Galileo](documentation/IntelGalileo.md)
 * [External Workshops](documentation/Workshops.md)
