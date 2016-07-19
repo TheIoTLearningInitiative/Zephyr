@@ -193,3 +193,4 @@ make[2]: Leaving directory `/home/abraham/zephyr-project/samples/shell/outdir'
 make[1]: Leaving directory `/home/abraham/zephyr-project'
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
 ```
+
