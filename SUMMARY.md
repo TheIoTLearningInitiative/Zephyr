@@ -22,6 +22,6 @@
        * [Laboratory QEMU](documentation/Laboratoryv2Qemu.md)
        * [Laboratory Arduino 101](documentation/Laboratoryv2Arduino101.md)
            * [Samples Shell](documentation/SamplesShell.md)
-           * Samples Net Mqtt Shell
+           * [Samples Net Mqtt Shell](documentation/SamplesNetMqttShell.md)
 * [Sandbox](documentation/Sandbox.md)
 
