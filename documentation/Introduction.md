@@ -9,6 +9,7 @@
 - [Zephyr JIRA](jira.zephyrproject.org)
 - [Zephyr Highlights](https://www.zephyrproject.org/sites/local-zephyr/files/zephyr_project_highlights.pdf)
 - [Zephyr Connnectivity](https://www.zephyrproject.org/sites/local-zephyr/files/zephyr_project_connectivity.pdf)
+- [Zephyr Technical Overview](https://www.zephyrproject.org/sites/local-zephyr/files/zephyr_project_technical_overview.pdf)
 
 Features
 
