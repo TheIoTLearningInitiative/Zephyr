@@ -20,6 +20,8 @@ main.c  Makefile
 abraham@aarcemor-desk:~/zephyr-project/samples/shell/src$ 
 ```
 
+## Environment Checking
+
 ```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ echo $ZEPHYR_BASE
 /home/abraham/zephyr-project
