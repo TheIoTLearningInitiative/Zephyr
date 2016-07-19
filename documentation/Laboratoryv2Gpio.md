@@ -21,3 +21,15 @@ abraham@aarcemor-desk:~/zephyr-project/drivers/gpio$
 ```sh
 abraham@aarcemor-desk:~/zephyr-project/drivers/gpio$ nano gpio_qmsi.c
 ```
+
+```c
+struct gpio_qmsi_config {
+        qm_gpio_t gpio;
+        uint8_t num_pins;
+};
+
+struct gpio_qmsi_runtime {
+        sys_slist_t callbacks;
+        uint32_t pin_callbacks;
+};
+```
