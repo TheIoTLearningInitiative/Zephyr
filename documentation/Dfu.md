@@ -51,12 +51,12 @@ abraham@aarcemor-desk:~/dfu-util$ sudo make install
 
 ```sh
 abraham@aarcemor-desk:~/dfu-util$ dfu-util -V
-dfu-util 0.7
+dfu-util 0.9
 
-Copyright 2005-2008 Weston Schmidt, Harald Welte and OpenMoko Inc.
-Copyright 2010-2012 Tormod Volden and Stefan Schmidt
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2016 Tormod Volden and Stefan Schmidt
 This program is Free Software and has ABSOLUTELY NO WARRANTY
-Please report bugs to dfu-util@lists.gnumonks.org
+Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
 
 abraham@aarcemor-desk:~/dfu-util$ 
 ```
