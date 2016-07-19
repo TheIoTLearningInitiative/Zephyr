@@ -39,5 +39,4 @@ abraham@aarcemor-desk:~/zephyr-project/arch$ ls x86/
 core  debug  defconfig  include  Kbuild  Kconfig  Makefile  soc
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls x86/soc/
 atom  ia32  quark_d2000  quark_se  quark_x1000
-abraham@aarcemor-desk:~/zephyr-project/arch$ 
 ```
