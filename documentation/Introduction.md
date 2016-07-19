@@ -7,6 +7,7 @@
 - [Open IoT Summit Zephyr Project Overview](http://events.linuxfoundation.org/sites/events/files/slides/Zephyr%20Overview%20-%20OpenIOT%20Summit%202016.pdf)
 - [Zephyr Gerrit](gerrit.zephyrporjectorg)
 - [Zephyr JIRA](jira.zephyrproject.org)
+- [Zephyr Highlights](https://www.zephyrproject.org/sites/local-zephyr/files/zephyr_project_highlights.pdf)
 
 Features
 
