@@ -67,7 +67,7 @@ abraham@aarcemor-desk:~/zephyr-project/samples/shell$
 
 ## Project Configuration
 
-```c
+```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ cat prj.conf 
 CONFIG_CONSOLE_HANDLER=y
 CONFIG_CONSOLE_HANDLER_SHELL=y
