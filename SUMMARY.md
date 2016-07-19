@@ -4,6 +4,7 @@
 * About This Training
    * Objectives
    * Skills
+   * Prerequisites
 * [Introduction](documentation/Introduction.md)
    * [Terminology](documentation/Terminology.md)
    * [DesignWare](documentation/DesignWare.md)
