@@ -20,3 +20,10 @@ main.c  Makefile
 abraham@aarcemor-desk:~/zephyr-project/samples/shell/src$ 
 ```
 
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ echo $ZEPHYR_BASE
+/home/abraham/zephyr-project
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ echo $ZEPHYR_GCC_VARIANT
+zephyr
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+```
