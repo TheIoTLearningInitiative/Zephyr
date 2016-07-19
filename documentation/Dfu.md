@@ -5,7 +5,7 @@
 - [DFU Util Github](https://github.com/Stefan-Schmidt/dfu-util) 
 
 ```sh
-abraham@aarcemor-desk:~$ git clone https://github.com/Stefan-Schmidt/dfu-util.git
+abraham@aarcemor-desk:~$ git clone git://git.code.sf.net/p/dfu-util/dfu-util
 Cloning into 'dfu-util'...
 remote: Counting objects: 1051, done.
 remote: Compressing objects: 100% (326/326), done.
