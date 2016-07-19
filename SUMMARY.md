@@ -17,5 +17,6 @@
    * [Intel Mexico Zephyr Workshop v2.0](documentation/IntelMexicoZephyrWorkshopv20.md)
        * [Laboratory QEMU](documentation/LaboratoryQemu.md)
        * Laboratory Arduino 101
+       * Setup
 * [Sandbox](documentation/Sandbox.md)
 
