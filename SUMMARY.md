@@ -17,9 +17,9 @@
 * [External Workshops](documentation/Workshops.md)
    * [Intel Mexico Zephyr Workshop v1.0](documentation/IntelMexicoZephyrWorkshop.md)
    * [Intel Mexico Zephyr Workshop v2.0](documentation/IntelMexicoZephyrWorkshopv20.md)
+       * GPIO
        * [Setup](documentation/Workshopv2Setup.md)
        * [Laboratory QEMU](documentation/Laboratoryv2Qemu.md)
        * [Laboratory Arduino 101](documentation/Laboratoryv2Arduino101.md)
-       * GPIO
 * [Sandbox](documentation/Sandbox.md)
 
