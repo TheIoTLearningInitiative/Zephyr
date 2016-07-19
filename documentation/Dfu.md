@@ -43,6 +43,8 @@ aclocal.m4      ChangeLog    configure.ac  DEVICES.txt  Makefile.am  src
 autogen.sh      config.h.in  COPYING       doc          Makefile.in  TODO
 autom4te.cache  configure    device-logs   m4           README       www
 abraham@aarcemor-desk:~/dfu-util$ ./configure 
+abraham@aarcemor-desk:~/dfu-util$ make
+abraham@aarcemor-desk:~/dfu-util$ sudo make install
 ```
 
 ```sh
