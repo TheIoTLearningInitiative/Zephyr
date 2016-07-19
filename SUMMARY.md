@@ -2,6 +2,7 @@
 
 * [Cover](README.md)
 * About This Training
+   * Objectives
 * [Introduction](documentation/Introduction.md)
    * [Terminology](documentation/Terminology.md)
    * [DesignWare](documentation/DesignWare.md)
