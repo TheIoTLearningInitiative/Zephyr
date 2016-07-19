@@ -21,6 +21,6 @@
        * [Setup](documentation/Workshopv2Setup.md)
        * [Laboratory QEMU](documentation/Laboratoryv2Qemu.md)
        * [Laboratory Arduino 101](documentation/Laboratoryv2Arduino101.md)
-           * Samples Shell
+           * [Samples Shell](documentation/SamplesShell.md)
 * [Sandbox](documentation/Sandbox.md)
 
