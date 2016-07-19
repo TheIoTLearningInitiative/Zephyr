@@ -46,3 +46,21 @@ total 8.0K
 -rw-rw-r-- 1 abraham abraham   16 jun 25 12:13 Makefile
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
 ```
+
+## Make Menuconfig
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ make menuconfig
+make[1]: Entering directory `/home/abraham/zephyr-project'
+make[2]: Entering directory `/home/abraham/zephyr-project/samples/shell/outdir'
+  GEN     ./Makefile
+scripts/kconfig/mconf Kconfig
+
+
+*** End of the configuration.
+*** Execute 'make' to start the build or try 'make help'.
+
+make[2]: Leaving directory `/home/abraham/zephyr-project/samples/shell/outdir'
+make[1]: Leaving directory `/home/abraham/zephyr-project'
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+```
