@@ -5,6 +5,7 @@
    * [Terminology](documentation/Terminology.md)
    * [DesignWare](documentation/DesignWare.md)
    * [DFU](documentation/Dfu.md)
+   * NIOS2
 * Getting Started Guide
    * [Development Environment](documentation/DevelopmentEnvironment.md)
    * [Building and Running an Application](documentation/Applications.md)
