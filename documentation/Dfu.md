@@ -44,3 +44,15 @@ autogen.sh      config.h.in  COPYING       doc          Makefile.in  TODO
 autom4te.cache  configure    device-logs   m4           README       www
 abraham@aarcemor-desk:~/dfu-util$ ./configure 
 ```
+
+```sh
+abraham@aarcemor-desk:~/dfu-util$ dfu-util -V
+dfu-util 0.7
+
+Copyright 2005-2008 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2012 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to dfu-util@lists.gnumonks.org
+
+abraham@aarcemor-desk:~/dfu-util$ 
+```
