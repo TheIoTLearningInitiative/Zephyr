@@ -25,5 +25,4 @@ make[2]: Entering directory `/home/abraham/zephyr-project/samples/hello_world/na
 To exit from QEMU enter: 'CTRL+a, x'
 [QEMU] CPU: qemu32
 Hello World!
-
 ```
