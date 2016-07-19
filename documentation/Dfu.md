@@ -18,8 +18,8 @@ abraham@aarcemor-desk:~$
 ```sh
 abraham@aarcemor-desk:~$ cd dfu-util/
 abraham@aarcemor-desk:~/dfu-util$ ls
-autogen.sh  configure.ac  device-logs  doc          README  TODO
-ChangeLog   COPYING       DEVICES.txt  Makefile.am  src     www
+AUTHORS     ChangeLog     COPYING      DEVICES.txt    doc      Makefile.am  README  TODO
+autogen.sh  configure.ac  device-logs  dfuse-pack.py  INSTALL  msvc         src     www
 abraham@aarcemor-desk:~/dfu-util$ 
 ```
 
