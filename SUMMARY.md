@@ -28,6 +28,6 @@
            * [Samples Shell](documentation/SamplesShell.md)
            * [Samples Net Mqtt Shell](documentation/SamplesNetMqttShell.md)
 * Wrap-Up
-   * Challenge
+   * [Challenge](documentation/Challenge.md)
 * [Sandbox](documentation/Sandbox.md)
 
