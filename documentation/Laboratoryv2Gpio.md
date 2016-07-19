@@ -1,4 +1,4 @@
-# GPIO
+# Device Drivers GPIO
 
 ```sh
 abraham@aarcemor-desk:~/zephyr-project$ ls
