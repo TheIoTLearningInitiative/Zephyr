@@ -221,3 +221,4 @@ abraham@aarcemor-desk:~/zephyr-project/samples/shell$ dmesg
 [29680.369653] usb 3-2: SerialNumber: AE6642SQ60400W3
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
 ```
+
