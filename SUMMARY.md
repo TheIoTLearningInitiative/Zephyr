@@ -12,6 +12,6 @@
    * [Intel Galileo](IntelGalileo.md)
 * [Workshops](documentation/Workshops.md)
    * [Intel Mexico Zephyr Workshop v1.0](documentation/IntelMexicoZephyrWorkshop.md)
-   * Intel Mexico Zephyr v2.0
+   * Intel Mexico Zephyr Workshop v2.0
 * [Sandbox](documentation/Sandbox.md)
 
