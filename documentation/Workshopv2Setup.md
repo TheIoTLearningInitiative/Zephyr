@@ -9,3 +9,13 @@ screen is already the newest version.
 0 upgraded, 0 newly installed, 0 to remove and 393 not upgraded.
 abraham@aarcemor-desk:~$ 
 ```
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ sudo apt-get install libusb-dev 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+libusb-dev is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 393 not upgraded.
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+```
