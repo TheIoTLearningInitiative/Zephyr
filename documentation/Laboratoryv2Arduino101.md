@@ -29,3 +29,6 @@ abraham@aarcemor-desk:~/zephyr-project/samples/shell$ echo $ZEPHYR_GCC_VARIANT
 zephyr
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
 ```
+
+## Application Template
+
