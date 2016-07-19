@@ -1,6 +1,7 @@
 # Summary
 
 * [Cover](README.md)
+* About This Training
 * [Introduction](documentation/Introduction.md)
    * [Terminology](documentation/Terminology.md)
    * [DesignWare](documentation/DesignWare.md)
@@ -24,5 +25,4 @@
            * [Samples Shell](documentation/SamplesShell.md)
            * [Samples Net Mqtt Shell](documentation/SamplesNetMqttShell.md)
 * [Sandbox](documentation/Sandbox.md)
-* About This Training
 
