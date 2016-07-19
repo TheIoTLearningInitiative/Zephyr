@@ -14,6 +14,6 @@
 * [External Workshops](documentation/Workshops.md)
    * [Intel Mexico Zephyr Workshop v1.0](documentation/IntelMexicoZephyrWorkshop.md)
    * [Intel Mexico Zephyr Workshop v2.0](documentation/IntelMexicoZephyrWorkshopv20.md)
-       * Laboratory QEMU
+       * [Laboratory QEMU](documentation/LaboratoryQemu.md)
 * [Sandbox](documentation/Sandbox.md)
 
