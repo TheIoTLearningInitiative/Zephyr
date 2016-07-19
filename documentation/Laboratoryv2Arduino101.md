@@ -19,3 +19,4 @@ abraham@aarcemor-desk:~/zephyr-project/samples/shell/src$ ls
 main.c  Makefile
 abraham@aarcemor-desk:~/zephyr-project/samples/shell/src$ 
 ```
+
