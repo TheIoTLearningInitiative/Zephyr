@@ -10,5 +10,6 @@
 
 ```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/nanokernel$ make pristine
-abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/nanokernel$ make BOARD=qemu
+abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/nanokernel$ make BOARD=qemu_x86
+
 ```
