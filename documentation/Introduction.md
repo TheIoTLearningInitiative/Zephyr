@@ -10,8 +10,10 @@
 
 Features
 
+- Modularity
 - Security
-- Open Source
+- Cross Architecture
+- Open Source, Community Developed
 - Connectivity
 - Modular
 
