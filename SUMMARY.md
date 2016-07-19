@@ -3,6 +3,7 @@
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
    * [Terminology](documentation/Terminology.md)
+   * DesignWare
 * Getting Started Guide
    * [Development Environment](documentation/DevelopmentEnvironment.md)
    * [Building and Running an Application](documentation/Applications.md)
