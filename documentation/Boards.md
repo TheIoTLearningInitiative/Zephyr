@@ -11,6 +11,9 @@ doc     include  Kconfig.zephyr  LICENSE  Makefile.inc  samples  zephyr-env.sh
 abraham@aarcemor-desk:~/zephyr-project$ cd arch/
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls
 arc  arm  Kconfig  Makefile  nios2  x86
+```
+
+```sh
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls arc/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls arc/soc
