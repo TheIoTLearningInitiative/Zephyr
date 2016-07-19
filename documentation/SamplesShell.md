@@ -222,6 +222,8 @@ abraham@aarcemor-desk:~/zephyr-project/samples/shell$ dmesg
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
 ```
 
+## Flashing
+
 ```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ sudo dfu-util -a x86_app -D outdir/zephyr.bin
 ```
