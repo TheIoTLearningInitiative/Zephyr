@@ -1,8 +1,8 @@
 # Architecture
 
-## Wait! Let´s ...
+# Wait! Let´s ...
 
-### Make Help
+## Make Help
 
 ```sh
 xe1gyq@jessie:~/zephyr-project$ make help
@@ -70,7 +70,7 @@ Build flags:
 Execute "make" or "make all" to build all targets marked with [*] 
 ```
 
-### Make Menuconfig
+## Make Menuconfig
 
 ```sh
     xe1gyq@jessie:~/zephyr-project$ make menuconfig
@@ -95,15 +95,15 @@ Execute "make" or "make all" to build all targets marked with [*]
     Boot Options
 ```
 
-## Now! Some Action
+# Now! Some Action
 
-### Source Tree
+## Source Tree
 
 Look at the source tree top-level directories
 
 - [Source Tree Structure](https://www.zephyrproject.org/doc/kernel/overview/source_tree.html)
 
-### Nanokernel, Microkernel
+## Nanokernel, Microkernel
 
 Review nanokernel and microkernel code
 
@@ -115,35 +115,7 @@ Review nanokernel and microkernel code
     command_packet.h  fifo.h   memory_map.h  mutex.h        semaphore.h  task_irq.h
 ```
 
-### Architecture, SoC, Board
-
-Look at the following Configurations Options under [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
-and identify which SoC is tight to which Board for the x86 Architecture
-
-```sh
- CONFIG_X86
- CONFIG_SOC
- CONFIG_X86_IAMCU
- CONFIG_SOC_QUARK_D2000
- CONFIG_SOC_QUARK_X1000
- CONFIG_SOC_ATOM
- CONFIG_SOC_QUARK_SE
- CONFIG_SOC_IA32
- CONFIG_CPU_ATOM
- CONFIG_CPU_MINUTEIA
-```
-
-Now confirm your answers are correct by looking at the Zephyr Kernel Configuration, x86 SoC & Board Selection
-
-```sh
-    xe1gyq@jessie:~/zephyr-project$ make menuconfig
-    ...
-    x86 SoC Selection (Generic IA32 SoC)
-    x86 Options
-    Board Selection (QEMU x86)
-    Board Options
-    ...
-```
+## Architectures
 
 
 ```sh
@@ -185,4 +157,34 @@ abraham@aarcemor-desk:~/zephyr-project/arch$ ls x86/
 core  debug  defconfig  include  Kbuild  Kconfig  Makefile  soc
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls x86/soc/
 atom  ia32  quark_d2000  quark_se  quark_x1000
+```
+
+## Architecture, SoC, Board
+
+Look at the following Configurations Options under [Configuration Options Reference Guide](https://www.zephyrproject.org/doc/reference/kconfig/index.html)
+and identify which SoC is tight to which Board for the x86 Architecture
+
+```sh
+ CONFIG_X86
+ CONFIG_SOC
+ CONFIG_X86_IAMCU
+ CONFIG_SOC_QUARK_D2000
+ CONFIG_SOC_QUARK_X1000
+ CONFIG_SOC_ATOM
+ CONFIG_SOC_QUARK_SE
+ CONFIG_SOC_IA32
+ CONFIG_CPU_ATOM
+ CONFIG_CPU_MINUTEIA
+```
+
+Now confirm your answers are correct by looking at the Zephyr Kernel Configuration, x86 SoC & Board Selection
+
+```sh
+    xe1gyq@jessie:~/zephyr-project$ make menuconfig
+    ...
+    x86 SoC Selection (Generic IA32 SoC)
+    x86 Options
+    Board Selection (QEMU x86)
+    Board Options
+    ...
 ```
