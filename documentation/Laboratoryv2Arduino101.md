@@ -64,3 +64,13 @@ make[2]: Leaving directory `/home/abraham/zephyr-project/samples/shell/outdir'
 make[1]: Leaving directory `/home/abraham/zephyr-project'
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
 ```
+
+## Project Configuration
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ cat prj.conf 
+CONFIG_CONSOLE_HANDLER=y
+CONFIG_CONSOLE_HANDLER_SHELL=y
+CONFIG_PRINTK=y
+abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+```
