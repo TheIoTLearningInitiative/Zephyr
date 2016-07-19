@@ -18,10 +18,16 @@ abraham@aarcemor-desk:~/zephyr-project/arch$ ls arc/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls arc/soc
 em11d  em9d  quark_se_ss
+```
+
+```sh
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls arm/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls arm/soc/
 atmel_sam3  nordic_nrf5  nxp_kinetis  st_stm32  ti_lm3s6965
+```
+
+```sh
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls nios2/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
 abraham@aarcemor-desk:~/zephyr-project/arch$ ls nios2/soc
