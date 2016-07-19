@@ -226,11 +226,10 @@ abraham@aarcemor-desk:~/zephyr-project/samples/shell$
 
 ```sh
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ sudo dfu-util -a x86_app -D outdir/zephyr.bin
+[sudo] password for abraham: 
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ sudo dfu-util -a x86_app -D outdir/zephyr.bin
-[sudo] password for abraham: 
 dfu-util 0.7
 
 Copyright 2005-2008 Weston Schmidt, Harald Welte and OpenMoko Inc.
