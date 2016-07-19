@@ -36,3 +36,11 @@ src/Makefile.am: installing 'm4/depcomp'
 autoreconf: Leaving directory `.'
 abraham@aarcemor-desk:~/dfu-util$ 
 ```
+
+```sh
+abraham@aarcemor-desk:~/dfu-util$ ls
+aclocal.m4      ChangeLog    configure.ac  DEVICES.txt  Makefile.am  src
+autogen.sh      config.h.in  COPYING       doc          Makefile.in  TODO
+autom4te.cache  configure    device-logs   m4           README       www
+abraham@aarcemor-desk:~/dfu-util$ ./configure 
+```
