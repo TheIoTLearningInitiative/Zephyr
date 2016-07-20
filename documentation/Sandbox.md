@@ -39,7 +39,7 @@ Finished processing dependencies for btproxy==0.1
 abraham@aarcemor-desk:~/btproxy$ 
 ```
 
-# BlueZ
+## BlueZ
 
 ```sh
 abraham@aarcemor-desk:~$ sudo apt-get install libical-dev
@@ -55,6 +55,21 @@ abraham@aarcemor-desk:~/bluez$ ./configure --prefix=/usr --mandir=/usr/share/man
 ```
 
 ```sh
+abraham@aarcemor-desk:~/bluez$ sudo hciconfig 
+hci0:	Type: BR/EDR  Bus: USB
+	BD Address: E8:B1:FC:09:6A:FE  ACL MTU: 1021:5  SCO MTU: 96:5
+	UP RUNNING PSCAN ISCAN 
+	RX bytes:2780 acl:0 sco:0 events:207 errors:0
+	TX bytes:22720 acl:0 sco:0 commands:181 errors:0
+
+abraham@aarcemor-desk:~/bluez$ sudo hciconfig hci0 down
+abraham@aarcemor-desk:~/bluez$ sudo hciconfig 
+hci0:	Type: BR/EDR  Bus: USB
+	BD Address: E8:B1:FC:09:6A:FE  ACL MTU: 1021:5  SCO MTU: 96:5
+	DOWN 
+	RX bytes:2780 acl:0 sco:0 events:207 errors:0
+	TX bytes:22720 acl:0 sco:0 commands:181 errors:0
+
 abraham@aarcemor-desk:~/bluez$ sudo tools/btproxy -u
 Listening on /tmp/bt-server-bredr
 ```
