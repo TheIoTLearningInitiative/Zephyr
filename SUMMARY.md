@@ -26,7 +26,6 @@
        * [Device Drivers GPIO](documentation/Laboratoryv2Gpio.md)
        * [Setup](documentation/Workshopv2Setup.md)
        * [Laboratory QEMU](documentation/Laboratoryv2Qemu.md)
-       * [Samples Shell](documentation/SamplesShell.md)
        * [Laboratory Arduino 101](documentation/Laboratoryv2Arduino101.md)
            * [Samples Shell](documentation/SamplesShell.md)
            * [Samples Net Mqtt Shell](documentation/SamplesNetMqttShell.md)
