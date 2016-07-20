@@ -16,11 +16,11 @@
        * [Building and Running an Application](documentation/Applications.md)
    * Supported Boards
        * x86 Instruction Set
+           * [Intel Galileo](documentation/IntelGalileo.md)
            * Tbd
    * Zephyr Kernel Primer
        * [Architecture](documentation/Architecture.md)
        * [Boards](documentation/Boards.md)
-           * [Intel Galileo](documentation/IntelGalileo.md)
    * Tbd
 * [External Workshops](documentation/Workshops.md)
    * [Intel Mexico Zephyr Workshop v1.0](documentation/IntelMexicoZephyrWorkshop.md)
