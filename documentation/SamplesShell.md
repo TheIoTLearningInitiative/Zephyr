@@ -268,3 +268,8 @@ state(2) = dfuIDLE, status(0) = No error condition is present
 Done!
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
 ```
+
+
+```sh
+abraham@aarcemor-desk:~$ screen /dev/ttyUSB0 115200
+```
