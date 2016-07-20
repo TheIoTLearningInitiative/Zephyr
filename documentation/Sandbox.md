@@ -37,7 +37,7 @@ Finished processing dependencies for btproxy==0.1
 abraham@aarcemor-desk:~/btproxy$ 
 ```
 
-# 
+# BlueZ
 
 ```sh
 abraham@aarcemor-desk:~$ sudo apt-get install libical-dev
