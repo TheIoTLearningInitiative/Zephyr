@@ -17,7 +17,6 @@
    * Supported Boards
        * x86 Instruction Set
            * [Galileo Gen1/Gen2](documentation/IntelGalileo.md)
-           * Tbd
    * Zephyr Kernel Primer
        * [Architecture](documentation/Architecture.md)
        * [Boards](documentation/Boards.md)
