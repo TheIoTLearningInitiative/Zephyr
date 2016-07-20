@@ -1,6 +1,6 @@
 # Intel Mexico Zephyr Workshop v2.0
 
-Thanks [@FlavioDevNull]()
+Thanks [@FlavioDevNull](https://github.com/flaviodevnull) for your support!
 
 - [Gitbook @FlavioDevNull The Zephyr Book](https://flaviodevnull.gitbooks.io/the-zephyr-book/content/)
 
