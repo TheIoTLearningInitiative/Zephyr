@@ -26,6 +26,8 @@ Resolving deltas: 100% (186/186), done.
 Checking connectivity... done.
 ```
 
+# Not the right btproxy
+
 ```sh
 abraham@aarcemor-desk:~$ cd btproxy/
 abraham@aarcemor-desk:~/btproxy$ sudo python setup.py install
