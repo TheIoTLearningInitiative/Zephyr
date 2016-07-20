@@ -41,7 +41,7 @@ abraham@aarcemor-desk:~/btproxy$
 
 ```sh
 abraham@aarcemor-desk:~$ git clone https://git.kernel.org/pub/scm/bluetooth/bluez.git
-abraham@aarcemor-desk:~$ cd blue
+abraham@aarcemor-desk:~$ cd bluez
 ```
 
 ```sh
