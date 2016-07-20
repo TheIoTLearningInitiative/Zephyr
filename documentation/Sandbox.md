@@ -104,6 +104,11 @@ abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth$ cd peripheral_hr/
 abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth/peripheral_hr$ ls
 Makefile  prj.conf  prj.mdef  prj_nble.conf  README  src  testcase.ini
 abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth/peripheral_hr$ make pristine && make qemu
+...
+To exit from QEMU enter: 'CTRL+a, x'
+[QEMU] CPU: qemu32
+Bluetooth initialized
+Advertising successfully started
 ```
 
 ## Host, After
