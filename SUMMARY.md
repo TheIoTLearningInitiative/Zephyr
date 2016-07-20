@@ -21,6 +21,7 @@
    * Zephyr Kernel Primer
        * [Architecture](documentation/Architecture.md)
    * Subsystems
+       * Bluetooth
 * [External Workshops](documentation/Workshops.md)
    * [Intel Mexico Zephyr Workshop v1.0](documentation/IntelMexicoZephyrWorkshop.md)
    * [Intel Mexico Zephyr Workshop v2.0](documentation/IntelMexicoZephyrWorkshopv20.md)
