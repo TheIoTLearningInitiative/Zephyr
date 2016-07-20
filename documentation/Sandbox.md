@@ -52,7 +52,12 @@ abraham@aarcemor-desk:~$ cd bluez
 
 ```sh
 abraham@aarcemor-desk:~/bluez$ ./configure --prefix=/usr --mandir=/usr/share/man --sysconfdir=/etc --localstatedir=/var --enable-experimental --with-systemdsystemunitdir=/lib/systemd/system --with-systemduserunitdir=/usr/lib/systemd
+abraham@aarcemor-desk:~/bluez$ make
+...
+
 ```
+
+# Host, Before
 
 ```sh
 abraham@aarcemor-desk:~/bluez$ sudo hciconfig 
@@ -102,7 +107,7 @@ Makefile  prj.conf  prj.mdef  prj_nble.conf  README  src  testcase.ini
 abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth/peripheral_hr$ make pristine && make qemu
 ```
 
-## Host
+## Host, After
 
 ```sh
 abraham@aarcemor-desk:~/bluez$ sudo tools/btproxy -u
