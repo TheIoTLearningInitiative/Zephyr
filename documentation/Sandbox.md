@@ -40,7 +40,7 @@ abraham@aarcemor-desk:~/btproxy$
 # 
 
 ```sh
-abraham@aarcemor-desk:~/bluez$ sudo apt-get install libical-dev
+abraham@aarcemor-desk:~$ sudo apt-get install libical-dev
 ```
 
 ```sh
