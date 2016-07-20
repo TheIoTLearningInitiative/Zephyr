@@ -11,10 +11,10 @@
    * [DFU](documentation/Dfu.md)
    * [NIOS2](documentation/Nios2.md)
 * Documentation
+   * Getting Started Guide
+       * [Development Environment](documentation/DevelopmentEnvironment.md)
+       * [Building and Running an Application](documentation/Applications.md)
    * Tbd
-* Getting Started Guide
-   * [Development Environment](documentation/DevelopmentEnvironment.md)
-   * [Building and Running an Application](documentation/Applications.md)
 * Zephyr Kernel Primer
    * [Architecture](documentation/Architecture.md)
    * [Boards](documentation/Boards.md)
