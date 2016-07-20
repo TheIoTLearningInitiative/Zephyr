@@ -16,6 +16,8 @@ bluez-utils is already the newest version.
 abraham@aarcemor-desk:~$ 
 ```
 
+# Not the right btproxy
+
 ```sh
 abraham@aarcemor-desk:~$ git clone https://github.com/conorpp/btproxy
 Cloning into 'btproxy'...
@@ -25,8 +27,6 @@ Receiving objects: 100% (310/310), 120.06 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (186/186), done.
 Checking connectivity... done.
 ```
-
-# Not the right btproxy
 
 ```sh
 abraham@aarcemor-desk:~$ cd btproxy/
