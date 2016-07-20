@@ -40,12 +40,12 @@ abraham@aarcemor-desk:~/btproxy$
 # 
 
 ```sh
-abraham@aarcemor-desk:~$ git clone https://git.kernel.org/pub/scm/bluetooth/bluez.git
-abraham@aarcemor-desk:~$ cd bluez
+abraham@aarcemor-desk:~/bluez$ sudo apt-get install libical-dev
 ```
 
 ```sh
-abraham@aarcemor-desk:~/bluez$ sudo apt-get install libical-dev
+abraham@aarcemor-desk:~$ git clone https://git.kernel.org/pub/scm/bluetooth/bluez.git
+abraham@aarcemor-desk:~$ cd bluez
 ```
 
 ```sh
