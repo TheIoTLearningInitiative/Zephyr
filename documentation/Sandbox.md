@@ -74,7 +74,9 @@ hci0:	Type: BR/EDR  Bus: USB
 	DOWN 
 	RX bytes:2780 acl:0 sco:0 events:207 errors:0
 	TX bytes:22720 acl:0 sco:0 commands:181 errors:0
+```
 
+```sh
 abraham@aarcemor-desk:~/bluez$ sudo tools/btproxy -u
 Listening on /tmp/bt-server-bredr
 ```
