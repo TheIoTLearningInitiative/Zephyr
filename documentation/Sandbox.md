@@ -72,3 +72,10 @@ beacon   central_hr  ipsp        peripheral_csc  peripheral_esp  peripheral_sc_o
 central  gatt        peripheral  peripheral_dis  peripheral_hr   README
 abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth$ 
 ```
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth$ cd peripheral_hr/
+abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth/peripheral_hr$ ls
+Makefile  prj.conf  prj.mdef  prj_nble.conf  README  src  testcase.ini
+abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth/peripheral_hr$ make pristine && make qemu
+```
