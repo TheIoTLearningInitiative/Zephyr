@@ -1,6 +1,6 @@
 # Intel Mexico Zephyr Workshop
 
-Thanks [FlavioDevNull](https://www.gitbook.com/@flaviodevnull)
+Thanks [@FlavioDevNull](https://github.com/flaviodevnull) for your support!
 
 ```sh
 Introduction
