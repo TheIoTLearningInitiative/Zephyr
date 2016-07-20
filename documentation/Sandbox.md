@@ -58,3 +58,17 @@ abraham@aarcemor-desk:~/bluez$ ./configure --prefix=/usr --mandir=/usr/share/man
 abraham@aarcemor-desk:~/bluez$ sudo tools/btproxy -u
 Listening on /tmp/bt-server-bredr
 ```
+
+## Bluetooth Samples
+
+```sh
+abraham@aarcemor-desk:~/zephyr-project$ ls
+arch    drivers  Kbuild          kernel   MAINTAINERS   misc     scripts
+boards  ext      Kconfig         lib      Makefile      net      tests
+doc     include  Kconfig.zephyr  LICENSE  Makefile.inc  samples  zephyr-env.sh
+abraham@aarcemor-desk:~/zephyr-project$ cd samples/bluetooth/
+abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth$ ls
+beacon   central_hr  ipsp        peripheral_csc  peripheral_esp  peripheral_sc_only
+central  gatt        peripheral  peripheral_dis  peripheral_hr   README
+abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth$ 
+```
