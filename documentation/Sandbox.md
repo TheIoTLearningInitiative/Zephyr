@@ -61,8 +61,13 @@ hci0:	Type: BR/EDR  Bus: USB
 	UP RUNNING PSCAN ISCAN 
 	RX bytes:2780 acl:0 sco:0 events:207 errors:0
 	TX bytes:22720 acl:0 sco:0 commands:181 errors:0
+```
 
+```sh
 abraham@aarcemor-desk:~/bluez$ sudo hciconfig hci0 down
+```
+
+```sh
 abraham@aarcemor-desk:~/bluez$ sudo hciconfig 
 hci0:	Type: BR/EDR  Bus: USB
 	BD Address: E8:B1:FC:09:6A:FE  ACL MTU: 1021:5  SCO MTU: 96:5
