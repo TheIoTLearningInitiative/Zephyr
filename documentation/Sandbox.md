@@ -37,6 +37,12 @@ Finished processing dependencies for btproxy==0.1
 abraham@aarcemor-desk:~/btproxy$ 
 ```
 
+# 
+
+```sh
+abraham@aarcemor-desk:~/bluez$ git clone https://git.kernel.org/pub/scm/bluetooth/bluez.git
+```
+
 ```sh
 abraham@aarcemor-desk:~/bluez$ sudo apt-get install libical-dev
 ```
