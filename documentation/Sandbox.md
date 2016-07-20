@@ -26,4 +26,10 @@ Resolving deltas: 100% (186/186), done.
 Checking connectivity... done.
 abraham@aarcemor-desk:~$ cd btproxy/
 abraham@aarcemor-desk:~/btproxy$ sudo python setup.py install
+...
+Adding PyBluez 0.22 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/PyBluez-0.22-py2.7-linux-x86_64.egg
+Finished processing dependencies for btproxy==0.1
+abraham@aarcemor-desk:~/btproxy$ 
 ```
