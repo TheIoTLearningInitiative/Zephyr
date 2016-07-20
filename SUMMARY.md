@@ -19,7 +19,6 @@
            * [Galileo Gen1/Gen2](documentation/IntelGalileo.md)
    * Zephyr Kernel Primer
        * [Architecture](documentation/Architecture.md)
-       * [Boards](documentation/Boards.md)
    * Tbd
 * [External Workshops](documentation/Workshops.md)
    * [Intel Mexico Zephyr Workshop v1.0](documentation/IntelMexicoZephyrWorkshop.md)
