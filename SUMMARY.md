@@ -15,6 +15,7 @@
        * [Development Environment](documentation/DevelopmentEnvironment.md)
        * [Building and Running an Application](documentation/Applications.md)
    * Supported Boards
+       * x86 Instruction Set
    * Zephyr Kernel Primer
        * [Architecture](documentation/Architecture.md)
        * [Boards](documentation/Boards.md)
