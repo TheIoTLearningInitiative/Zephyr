@@ -56,4 +56,5 @@ abraham@aarcemor-desk:~/bluez$ ./configure --prefix=/usr --mandir=/usr/share/man
 
 ```sh
 abraham@aarcemor-desk:~/bluez$ sudo tools/btproxy -u
+Listening on /tmp/bt-server-bredr
 ```
