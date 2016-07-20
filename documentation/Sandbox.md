@@ -36,3 +36,7 @@ Installed /usr/local/lib/python2.7/dist-packages/PyBluez-0.22-py2.7-linux-x86_64
 Finished processing dependencies for btproxy==0.1
 abraham@aarcemor-desk:~/btproxy$ 
 ```
+
+```sh
+
+./configure --prefix=/usr --mandir=/usr/share/man --sysconfdir=/etc --localstatedir=/var --enable-experimental --with-systemdsystemunitdir=/lib/systemd/system --with-systemduserunitdir=/usr/lib/systemd
