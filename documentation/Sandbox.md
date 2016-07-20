@@ -38,5 +38,5 @@ abraham@aarcemor-desk:~/btproxy$
 ```
 
 ```sh
-
 ./configure --prefix=/usr --mandir=/usr/share/man --sysconfdir=/etc --localstatedir=/var --enable-experimental --with-systemdsystemunitdir=/lib/systemd/system --with-systemduserunitdir=/usr/lib/systemd
+```
