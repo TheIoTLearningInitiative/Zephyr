@@ -2,7 +2,9 @@
 
 # Bluetooth
 
-
+```sh
+abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth$ cat README 
+```
 
 ```sh
 abraham@aarcemor-desk:~$ sudo apt-get install bluez bluez-utils bluez-tools libbluetooth-dev python-dev
