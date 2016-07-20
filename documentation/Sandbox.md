@@ -54,7 +54,6 @@ abraham@aarcemor-desk:~$ cd bluez
 abraham@aarcemor-desk:~/bluez$ ./configure --prefix=/usr --mandir=/usr/share/man --sysconfdir=/etc --localstatedir=/var --enable-experimental --with-systemdsystemunitdir=/lib/systemd/system --with-systemduserunitdir=/usr/lib/systemd
 abraham@aarcemor-desk:~/bluez$ make
 ...
-
 ```
 
 # Host, Before
