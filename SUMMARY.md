@@ -16,7 +16,7 @@
        * [Building and Running an Application](documentation/Applications.md)
    * Supported Boards
        * x86 Instruction Set
-           * [Intel Galileo](documentation/IntelGalileo.md)
+           * [Galileo Gen1/Gen2](documentation/IntelGalileo.md)
            * Tbd
    * Zephyr Kernel Primer
        * [Architecture](documentation/Architecture.md)
