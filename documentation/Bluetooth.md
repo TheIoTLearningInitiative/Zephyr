@@ -4,7 +4,7 @@
 abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth$ cat README 
 ```
 
-# At Linux Host
+## At Linux Host
 
 ```sh
 abraham@aarcemor-desk:~$ sudo apt-get install bluez bluez-utils bluez-tools libbluetooth-dev python-dev
