@@ -1,6 +1,6 @@
 # Challenge
 
-# 01 Zephyr 
+# 01 
 
 [Section](Link)
 
