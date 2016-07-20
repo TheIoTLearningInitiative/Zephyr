@@ -119,6 +119,9 @@ xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g+
 
 ```sh
 abraham@aarcemor-desk:~$ wget https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.8-i686/zephyr-sdk-0.8-i686-setup.run
+```
+
+```sh
 --2016-06-25 11:48:38-- https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.8-i686/zephyr-sdk-0.8-i686-setup.run
 Resolving nexus.zephyrproject.org (nexus.zephyrproject.org)... 199.19.213.246
 Connecting to nexus.zephyrproject.org (nexus.zephyrproject.org)|199.19.213.246|:443... connected.
@@ -129,10 +132,15 @@ Saving to: ‘zephyr-sdk-0.8-i686-setup.run’
 100%[======================================>] 378 809 314 1.29MB/s   in 5m 42s 
 
 2016-06-25 11:54:21 (1.06 MB/s) - ‘zephyr-sdk-0.8-i686-setup.run’ saved [378809314/378809314]
+```
 
+```sh
 abraham@aarcemor-desk:~$ chmod +x zephyr-sdk-0.8-i686-setup.run 
 abraham@aarcemor-desk:~$ sudo ./zephyr-sdk-<version>-i686-setup.run
 [sudo] password for abraham: 
+```
+
+```sh
 Verifying archive integrity... All good.
 Uncompressing SDK for Zephyr  100%  
 Enter target directory for SDK (default: /opt/zephyr-sdk/): 
