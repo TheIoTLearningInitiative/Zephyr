@@ -24,6 +24,9 @@ remote: Total 310 (delta 0), reused 0 (delta 0), pack-reused 310
 Receiving objects: 100% (310/310), 120.06 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (186/186), done.
 Checking connectivity... done.
+```
+
+```sh
 abraham@aarcemor-desk:~$ cd btproxy/
 abraham@aarcemor-desk:~/btproxy$ sudo python setup.py install
 ...
