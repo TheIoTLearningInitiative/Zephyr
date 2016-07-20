@@ -1,6 +1,7 @@
 # Laboratory QEMU
 
 ```sh
+abraham@aarcemor-desk:~$ cd ~/zephyr-project/samples/hello_world/nanokernel
 abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/nanokernel$ make pristine
 abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/nanokernel$ make BOARD=qemu_x86
 abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/nanokernel$ make BOARD=qemu
