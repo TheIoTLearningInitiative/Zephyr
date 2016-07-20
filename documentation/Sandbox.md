@@ -15,3 +15,15 @@ bluez-utils is already the newest version.
 0 upgraded, 0 newly installed, 0 to remove and 393 not upgraded.
 abraham@aarcemor-desk:~$ 
 ```
+
+```sh
+abraham@aarcemor-desk:~$ git clone https://github.com/conorpp/btproxy
+Cloning into 'btproxy'...
+remote: Counting objects: 310, done.
+remote: Total 310 (delta 0), reused 0 (delta 0), pack-reused 310
+Receiving objects: 100% (310/310), 120.06 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (186/186), done.
+Checking connectivity... done.
+abraham@aarcemor-desk:~$ cd btproxy/
+abraham@aarcemor-desk:~/btproxy$ sudo python setup.py install
+```
