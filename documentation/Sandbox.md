@@ -102,6 +102,8 @@ Makefile  prj.conf  prj.mdef  prj_nble.conf  README  src  testcase.ini
 abraham@aarcemor-desk:~/zephyr-project/samples/bluetooth/peripheral_hr$ make pristine && make qemu
 ```
 
+## Host
+
 ```sh
 abraham@aarcemor-desk:~/bluez$ sudo tools/btproxy -u
 Listening on /tmp/bt-server-bredr
