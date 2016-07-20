@@ -16,7 +16,7 @@ bluez-utils is already the newest version.
 abraham@aarcemor-desk:~$ 
 ```
 
-# Not the right btproxy
+## Not the right btproxy
 
 ```sh
 abraham@aarcemor-desk:~$ git clone https://github.com/conorpp/btproxy
