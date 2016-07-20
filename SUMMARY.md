@@ -14,7 +14,7 @@
    * Getting Started Guide
        * [Development Environment](documentation/DevelopmentEnvironment.md)
        * [Building and Running an Application](documentation/Applications.md)
-   * Supported Boards
+   * [Supported Boards](documentation/SupportedBoards.md)
        * x86 Instruction Set
            * [Galileo Gen1/Gen2](documentation/IntelGalileo.md)
    * Zephyr Kernel Primer
