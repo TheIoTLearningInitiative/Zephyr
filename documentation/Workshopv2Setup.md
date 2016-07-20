@@ -11,7 +11,7 @@ abraham@aarcemor-desk:~$
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ sudo apt-get install libusb-dev 
+abraham@aarcemor-desk:~$ sudo apt-get install libusb-dev 
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
