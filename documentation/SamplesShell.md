@@ -269,7 +269,6 @@ Done!
 abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
 ```
 
-
 ```sh
 abraham@aarcemor-desk:~$ screen /dev/ttyUSB0 115200
 ```
