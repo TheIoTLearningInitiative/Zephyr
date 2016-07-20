@@ -53,3 +53,7 @@ abraham@aarcemor-desk:~$ cd bluez
 ```sh
 abraham@aarcemor-desk:~/bluez$ ./configure --prefix=/usr --mandir=/usr/share/man --sysconfdir=/etc --localstatedir=/var --enable-experimental --with-systemdsystemunitdir=/lib/systemd/system --with-systemduserunitdir=/usr/lib/systemd
 ```
+
+```sh
+abraham@aarcemor-desk:~/bluez$ sudo tools/btproxy -u
+```
