@@ -1,7 +1,5 @@
 # Intel Mexico Zephyr Workshop
 
-- [Intel Mexico Zephyr Workshop](https://www.gitbook.com/book/flaviodevnull/rtos/details)
-
 Thanks [FlavioDevNull](https://www.gitbook.com/@flaviodevnull)
 
 ```sh
