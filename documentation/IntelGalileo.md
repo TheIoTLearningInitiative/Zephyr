@@ -86,7 +86,7 @@ menuentry "Zephyr Kernel" {
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ sudo umount /dev/mmcblk0p1
 ```
 
 ```sh
