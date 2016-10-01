@@ -99,35 +99,12 @@ drivers  fs                irq_int_vector_map.o  libzephyr.a  misc        src   
 ```
 
 ```sh
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ ls outdir/zephyr.strip 
-arch     ext               include               kernel       linker.cmd  net      staticIdt.o  zephyr.elf  zephyr.map
-boards   final-linker.cmd  int_vector_alloc.o    lib          Makefile    scripts  usb          zephyr.lnk  zephyr.stat
-drivers  fs                irq_int_vector_map.o  libzephyr.a  misc        src      zephyr.bin   zephyr.lst  zephyr.strip
+pymelab@pymelab-ThinkPad-T540p:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ file outdir/galileo/zephyr.strip 
+outdir/galileo/zephyr.strip: ELF 32-bit LSB  executable, Intel 80386, version 1 (SYSV), statically linked, stripped
 ```
 
-```sh
-xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ file outdir/zephyr.strip 
-    outdir/zephyr.strip: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
-    
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mount -t vfat /dev/sdb1 /media/sdcard/
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/sdcard/efi
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/sdcard/efi/boot
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/sdcard/kernel
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ cp $ZEPHYR_BASE/samples/hello_world/nanokernel/outdir/zephyr.strip /media/cdrom/kernel/
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ cp $ZEPHYR_BASE/scripts/grub/bin/grub.efi /media/cdrom/efi/boot/bootia32.efi
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ nano /media/cdrom/efi/boot/grub.cfg
-```
 
-```sh
-set default=0
-set timeout=10
-
-menuentry "Zephyr Kernel" {
-   multiboot /kernel/zephyr.strip
-}
-```
-
-Booting the Galileo Board
+## Booting the Galileo Board
 
 ```sh
     Press [Enter] to directly boot.
