@@ -50,13 +50,6 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ d
 [470637.189523]  mmcblk0: p1
 ```
 
-```sh
-    xe1gyq@jessie:~/zephyr-project$ ls $ZEPHYR_BASE/scripts/grub/bin/grub.efi
-    /home/xe1gyq/zephyr-project/scripts/grub/bin/grub.efi
-    xe1gyq@jessie:~/zephyr-project$ file $ZEPHYR_BASE/scripts/grub/bin/grub.efi
-    /home/xe1gyq/zephyr-project/scripts/grub/bin/grub.efi: PE32 executable (EFI application) Intel 80386 (stripped to external PDB), for MS Windows
-    xe1gyq@jessie:~/zephyr-project$ 
-```
 
 ## Preparing the Boot Device
 
