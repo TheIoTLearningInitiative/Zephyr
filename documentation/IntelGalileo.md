@@ -99,7 +99,7 @@ drivers  fs                irq_int_vector_map.o  libzephyr.a  misc        src   
 ```
 
 ```sh
-pymelab@pymelab-ThinkPad-T540p:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ file outdir/galileo/zephyr.strip 
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ file outdir/galileo/zephyr.strip 
 outdir/galileo/zephyr.strip: ELF 32-bit LSB  executable, Intel 80386, version 1 (SYSV), statically linked, stripped
 ```
 
@@ -117,7 +117,7 @@ outdir/galileo/zephyr.strip: ELF 32-bit LSB  executable, Intel 80386, version 1 
     error: no suitable video mode found.
 ```
 
-# Let´s Get To Work
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$  Let´s Get To Work
 
 ## Samples Shell
 
