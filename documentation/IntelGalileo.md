@@ -62,6 +62,12 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ s
 ```
 
 ```sh
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ 
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ 
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ 
+```
+
+```sh
 user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ cp outdir/galileo/zephyr.strip /media/sdcard/kernel/
 user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ cp ../../../scripts/grub/bin/grub.efi /media/sdcard/efi/boot/bootia32.efi
 ```
