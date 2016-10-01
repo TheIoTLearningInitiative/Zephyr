@@ -77,6 +77,10 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ n
 ```
 
 ```sh
+
+```
+
+```sh
 user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$
 ```
 
