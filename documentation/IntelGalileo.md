@@ -27,6 +27,9 @@
 
 ```sh
     xe1gyq@jessie:~$ cd $ZEPHYR_BASE/samples/hello_world/nanokernel
+```
+
+```sh
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ make BOARD=galileo
     make[1]: Entering directory '/home/xe1gyq/zephyr-project'
     make[2]: Entering directory '/home/xe1gyq/zephyr-project/samples/hello_world/nanokernel/outdir'
@@ -37,9 +40,17 @@
       CHK     include/generated/offsets.h
     make[2]: Leaving directory '/home/xe1gyq/zephyr-project/samples/hello_world/nanokernel/outdir'
     make[1]: Leaving directory '/home/xe1gyq/zephyr-project'
+```
+
+```sh
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ ls outdir/zephyr.strip 
-    outdir/zephyr.strip
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ file outdir/zephyr.strip 
+arch     ext               include               kernel       linker.cmd  net      staticIdt.o  zephyr.elf  zephyr.map
+boards   final-linker.cmd  int_vector_alloc.o    lib          Makefile    scripts  usb          zephyr.lnk  zephyr.stat
+drivers  fs                irq_int_vector_map.o  libzephyr.a  misc        src      zephyr.bin   zephyr.lst  zephyr.strip
+```
+
+```sh
+xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ file outdir/zephyr.strip 
     outdir/zephyr.strip: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, stripped
     
     xe1gyq@jessie:~/zephyr-project/samples/hello_world/nanokernel$ mount -t vfat /dev/sdb1 /media/sdcard/
