@@ -78,6 +78,10 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ s
 ## Building
 
 ```sh
+user@workstation:~/Intel/Zephyr/zephyr-project$ cd samples/hello_world/nanokernel/
+```
+
+```sh
 user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ make pristine && make BOARD=galileo
 ...
 ...
