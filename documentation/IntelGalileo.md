@@ -27,10 +27,6 @@ user@workstation:~/Intel/Zephyr/zephyr-project$ ./scripts/build_grub.sh
 ~/Intel/Zephyr/zephyr-project
 ```
 
-```sh
-user@workstation:~/Intel/Zephyr/zephyr-project$ cd samples/hello_world/nanokernel/
-```
-
 ## Preparing the Boot Device
 
 
