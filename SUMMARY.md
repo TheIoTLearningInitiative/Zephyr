@@ -17,6 +17,7 @@
    * [Supported Boards](documentation/SupportedBoards.md)
        * x86 Instruction Set
            * [Galileo Gen1/Gen2](documentation/IntelGalileo.md)
+               * Samples Shell
            * [X86 Emulation (QEMU)](documentation/x86EmulationQemu.md)
    * Zephyr Kernel Primer
        * [Architecture](documentation/Architecture.md)
