@@ -1,4 +1,4 @@
-# Grove LCD
+# Samples Grove LCD
 
 ```sh
     xe1gyq@jessie:~/zephyr-project$ cd $ZEPHYR_BASE/samples/drivers/grove_lcd
