@@ -79,7 +79,7 @@ menuentry "Zephyr Kernel" {
 user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ sudo umount /dev/mmcblk0p1
 ```
 
-## 
+## Building
 
 ```sh
 user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ make pristine && make BOARD=galileo
