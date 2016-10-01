@@ -21,6 +21,10 @@ defaults.tc  ext      Kbuild   kernel          MAINTAINERS  misc          script
 
 ```sh
 user@workstation:~/Intel/Zephyr/zephyr-project$ ./scripts/build_grub.sh
+...
+...
+~/Intel/Zephyr/zephyr-project/scripts/grub ~/Intel/Zephyr/zephyr-project
+~/Intel/Zephyr/zephyr-project
 ```
 
 ```sh
