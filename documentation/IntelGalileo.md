@@ -4,6 +4,9 @@
 
 ## Creating a GRUB2 Boot Loader Image from a Linux Host
 
+```sh
+user@workstation:~$ sudo apt-get install bison autoconf libopts25-dev flex automake
+```
 
 ```sh
 user@workstation:~$ cd $ZEPHYR_BASE
