@@ -51,6 +51,7 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ d
 ```
 
 
+
 ## Preparing the Boot Device
 
 ```sh
