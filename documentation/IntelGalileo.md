@@ -62,9 +62,9 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ s
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ 
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ 
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ 
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/sdcard/efi
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/sdcard/efi/boot
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ mkdir /media/sdcard/kernel
 ```
 
 ```sh
