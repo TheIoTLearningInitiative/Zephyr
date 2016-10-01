@@ -42,7 +42,12 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ m
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ 
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ dmesg
+...
+...
+[470637.182794] mmc0: new SD card at address e624
+[470637.188637] mmcblk0: mmc0:e624 SU01G 968 MiB 
+[470637.189523]  mmcblk0: p1
 ```
 
 ```sh
