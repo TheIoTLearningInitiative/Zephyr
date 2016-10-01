@@ -41,6 +41,9 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ m
   BIN     zephyr.bin
 ```
 
+## Preparing the Boot Device
+
+
 ```sh
 user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ dmesg
 ...
@@ -50,9 +53,25 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ d
 [470637.189523]  mmcblk0: p1
 ```
 
+```sh
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$
+```
 
+```sh
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$
+```
 
-## Preparing the Boot Device
+```sh
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$
+```
+
+```sh
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$
+```
+
+```sh
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$
+```
 
 ```sh
     xe1gyq@jessie:~$ cd $ZEPHYR_BASE/samples/hello_world/nanokernel
