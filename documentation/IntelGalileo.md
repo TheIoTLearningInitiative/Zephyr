@@ -77,7 +77,12 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ n
 ```
 
 ```sh
+set default=0
+set timeout=10
 
+menuentry "Zephyr Kernel" {
+   multiboot /kernel/zephyr.strip
+}
 ```
 
 ```sh
