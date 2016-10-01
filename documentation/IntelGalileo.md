@@ -31,16 +31,6 @@ user@workstation:~/Intel/Zephyr/zephyr-project$ ./scripts/build_grub.sh
 user@workstation:~/Intel/Zephyr/zephyr-project$ cd samples/hello_world/nanokernel/
 ```
 
-```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ make pristine && make BOARD=galileo
-...
-...
-  LINK    zephyr.lnk
-  SIDT    staticIdt.o
-  LINK    zephyr.elf
-  BIN     zephyr.bin
-```
-
 ## Preparing the Boot Device
 
 
@@ -90,6 +80,16 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ s
 ```
 
 ## 
+
+```sh
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ make pristine && make BOARD=galileo
+...
+...
+  LINK    zephyr.lnk
+  SIDT    staticIdt.o
+  LINK    zephyr.elf
+  BIN     zephyr.bin
+```
 
 ```sh
     xe1gyq@jessie:~$ cd $ZEPHYR_BASE/samples/hello_world/nanokernel
