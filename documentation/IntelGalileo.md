@@ -73,7 +73,7 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ c
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ nano /media/sdcard/efi/boot/grub.cfg
 ```
 
 ```sh
