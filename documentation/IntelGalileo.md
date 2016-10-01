@@ -32,7 +32,10 @@ user@workstation:~/Intel/Zephyr/zephyr-project$ samples/hello_world/nanokernel/
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ 
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ make pristine && make BOARD=galileo
+...
+...
+
 ```
 
 ```sh
