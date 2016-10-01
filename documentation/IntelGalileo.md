@@ -28,7 +28,7 @@ user@workstation:~/Intel/Zephyr/zephyr-project$ ./scripts/build_grub.sh
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project$ samples/hello_world/nanokernel/
+user@workstation:~/Intel/Zephyr/zephyr-project$ cd samples/hello_world/nanokernel/
 ```
 
 ```sh
