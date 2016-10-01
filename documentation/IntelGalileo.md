@@ -10,7 +10,10 @@ user@workstation:~$ cd $ZEPHYR_BASE
 ```
 
 ```sh
-
+user@workstation:~/Intel/Zephyr/zephyr-project$ ls
+arch         doc      fs       Kconfig         lib          Makefile      net      tests
+boards       drivers  include  Kconfig.zephyr  LICENSE      Makefile.inc  samples  usb
+defaults.tc  ext      Kbuild   kernel          MAINTAINERS  misc          scripts  zephyr-env.sh
 ```
 
 ```sh
