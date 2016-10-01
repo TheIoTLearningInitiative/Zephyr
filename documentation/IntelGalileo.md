@@ -31,7 +31,7 @@ user@workstation:~/Intel/Zephyr/zephyr-project$ ./scripts/build_grub.sh
 
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ dmesg
+user@workstation:~/Intel/Zephyr/zephyr-project$ dmesg
 ...
 ...
 [470637.182794] mmc0: new SD card at address e624
@@ -40,11 +40,11 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ d
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ sudo mkdir /media/sdcard
+user@workstation:~/Intel/Zephyr/zephyr-project$ sudo mkdir /media/sdcard
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ sudo mount -t vfat /dev/mmcblk0p1 /media/sdcard/
+user@workstation:~/Intel/Zephyr/zephyr-project$ sudo mount -t vfat /dev/mmcblk0p1 /media/sdcard/
 ```
 
 ```sh
@@ -54,12 +54,12 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ m
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ cp outdir/galileo/zephyr.strip /media/sdcard/kernel/
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ cp ../../../scripts/grub/bin/grub.efi /media/sdcard/efi/boot/bootia32.efi
+user@workstation:~/Intel/Zephyr/zephyr-project$ cp outdir/galileo/zephyr.strip /media/sdcard/kernel/
+user@workstation:~/Intel/Zephyr/zephyr-project$ cp ../../../scripts/grub/bin/grub.efi /media/sdcard/efi/boot/bootia32.efi
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ nano /media/sdcard/efi/boot/grub.cfg
+user@workstation:~/Intel/Zephyr/zephyr-project$ nano /media/sdcard/efi/boot/grub.cfg
 ```
 
 ```sh
@@ -72,7 +72,7 @@ menuentry "Zephyr Kernel" {
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ sudo umount /dev/mmcblk0p1
+user@workstation:~/Intel/Zephyr/zephyr-project$ sudo umount /dev/mmcblk0p1
 ```
 
 ## Building
