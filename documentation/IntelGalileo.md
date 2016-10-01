@@ -54,15 +54,15 @@ user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ d
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ sudo mkdir /media/sdcard
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ sudo mount -t vfat /dev/mmcblk0p1 /media/sdcard/
 ```
 
 ```sh
-user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/nanokernel$ 
 ```
 
 ```sh
