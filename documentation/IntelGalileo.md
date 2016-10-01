@@ -2,7 +2,7 @@
 
 # Official Documentation
 
-- [](https://wiki.zephyrproject.org/view/Galileo_Gen1_Gen2)
+- [Zephyr Project Galileo Gen1 Gen2](https://wiki.zephyrproject.org/view/Galileo_Gen1_Gen2)
 
 ## Creating a GRUB2 Boot Loader Image from a Linux Host
 
