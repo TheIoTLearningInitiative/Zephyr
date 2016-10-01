@@ -33,17 +33,6 @@ user@workstation:~/Intel/Zephyr/zephyr-project$ ./scripts/build_grub.sh
 ```
 
 ```sh
-    root@jessie:~# apt-get install bison autoconf libopts25-dev flex automake
-    xe1gyq@jessie:~$ cd $ZEPHYR_BASE
-    xe1gyq@jessie:~/zephyr-project$ ./scripts/build_grub.sh
-    ~/zephyr-project/scripts/grub ~/zephyr-project
-    Cloning into 'src'...
-    remote: Counting objects: 90290, done.
-    ...
-    make[2]: Leaving directory '/home/xe1gyq/zephyr-project/scripts/grub/src/util/bash-completion.d'
-    make[1]: Leaving directory '/home/xe1gyq/zephyr-project/scripts/grub/src'
-    ~/zephyr-project/scripts/grub ~/zephyr-project
-    ~/zephyr-project
     xe1gyq@jessie:~/zephyr-project$ ls $ZEPHYR_BASE/scripts/grub/bin/grub.efi
     /home/xe1gyq/zephyr-project/scripts/grub/bin/grub.efi
     xe1gyq@jessie:~/zephyr-project$ file $ZEPHYR_BASE/scripts/grub/bin/grub.efi
