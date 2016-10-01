@@ -6,10 +6,11 @@
 
 
 ```sh
-
+user@workstation:~$ cd $ZEPHYR_BASE
 ```
 
 ```sh
+
 ```
 
 ```sh
