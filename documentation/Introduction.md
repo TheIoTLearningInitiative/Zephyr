@@ -11,6 +11,10 @@
 - [Zephyr Connnectivity](https://www.zephyrproject.org/sites/local-zephyr/files/zephyr_project_connectivity.pdf)
 - [Zephyr Technical Overview](https://www.zephyrproject.org/sites/local-zephyr/files/zephyr_project_technical_overview.pdf)
 
+Videos
+
+- [](https://www.youtube.com/watch?v=fkfhWVOO8-w)
+
 Features
 
 - Modularity
