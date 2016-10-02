@@ -5,7 +5,7 @@
 ## Libraries Update
 
 ```sh
-abraham@aarcemor-desk:~$ sudo apt-get update
+user@workstation:~$ sudo apt-get update
 Get:1 http://security.ubuntu.com trusty-security InRelease [65.9 kB]
 Get:2 http://packages.ros.org trusty InRelease [4 031 B]                       
 Ign http://extras.ubuntu.com trusty InRelease                                  
@@ -106,7 +106,7 @@ Ign http://mx.archive.ubuntu.com trusty/restricted Translation-en_US
 Ign http://mx.archive.ubuntu.com trusty/universe Translation-en_US             
 Fetched 6 655 kB in 25s (264 kB/s)                                            
 Reading package lists... Done
-abraham@aarcemor-desk:~$ 
+user@workstation:~$ 
 ```
 
 ```sh
@@ -118,7 +118,7 @@ xe1gyq@jessie:~# apt-get install git make gcc gcc-multilib g++ libc6-dev-i386 g+
 [Zephyr SDK Archive](https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/)
 
 ```sh
-abraham@aarcemor-desk:~$ wget https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.8-i686/zephyr-sdk-0.8-i686-setup.run
+user@workstation:~$ wget https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.8-i686/zephyr-sdk-0.8-i686-setup.run
 ```
 
 ```sh
@@ -135,8 +135,8 @@ Saving to: ‘zephyr-sdk-0.8-i686-setup.run’
 ```
 
 ```sh
-abraham@aarcemor-desk:~$ chmod +x zephyr-sdk-0.8-i686-setup.run 
-abraham@aarcemor-desk:~$ sudo ./zephyr-sdk-<version>-i686-setup.run
+user@workstation:~$ chmod +x zephyr-sdk-0.8-i686-setup.run 
+user@workstation:~$ sudo ./zephyr-sdk-<version>-i686-setup.run
 [sudo] password for abraham: 
 ```
 
@@ -155,17 +155,17 @@ Success
  [*] Installing nios2 tools... 
  [*] Installing additional host tools... 
 Success installing SDK. SDK is ready to be used.
-abraham@aarcemor-desk:~$ 
+user@workstation:~$ 
 ```
 
 ```sh
-abraham@aarcemor-desk:~$ export ZEPHYR_GCC_VARIANT=zephyr
-abraham@aarcemor-desk:~$ export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
-abraham@aarcemor-desk:~$ 
+user@workstation:~$ export ZEPHYR_GCC_VARIANT=zephyr
+user@workstation:~$ export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
+user@workstation:~$ 
 ```
 
 ```sh
-abraham@aarcemor-desk:~$ cat << EOF > ~/.zephyrrc
+user@workstation:~$ cat << EOF > ~/.zephyrrc
 export ZEPHYR_GCC_VARIANT=zephyr
 export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
 EOF
