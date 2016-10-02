@@ -5,7 +5,7 @@
 ## Make Help
 
 ```sh
-xe1gyq@jessie:~/zephyr-project$ make help
+user@workstation:~/zephyr-project$ make help
 Cleaning targets:
   clean		  - Remove most generated files but keep configuration and backup files
   mrproper	  - Remove all generated files + config + various backup files
@@ -73,7 +73,7 @@ Execute "make" or "make all" to build all targets marked with [*]
 ## Make Menuconfig
 
 ```sh
-    xe1gyq@jessie:~/zephyr-project$ make menuconfig
+:~/zephyr-project$ make menuconfig
     ...
     Architecture (x86 architecture)
     x86 SoC Selection (Generic IA32 SoC)
