@@ -24,4 +24,3 @@ user@workstation:~/zephyr-project$ make menuconfig
     System Monitoring Options
     Boot Options
 ```
-****
