@@ -73,7 +73,7 @@ Execute "make" or "make all" to build all targets marked with [*]
 ## Make Menuconfig
 
 ```sh
-:~/zephyr-project$ make menuconfig
+user@workstation:~/zephyr-project$ make menuconfig
     ...
     Architecture (x86 architecture)
     x86 SoC Selection (Generic IA32 SoC)
