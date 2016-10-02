@@ -6,6 +6,9 @@
 
 ```sh
 user@workstation:~/zephyr-project$ make help
+```
+
+```sh
 Cleaning targets:
   clean		  - Remove most generated files but keep configuration and backup files
   mrproper	  - Remove all generated files + config + various backup files
@@ -20,6 +23,7 @@ Other generic targets:
   all		  - Build all targets marked with [*]
 * zephyr	  - Build a zephyr application
   qemu		  - Build a zephyr application and run it in qemu
+  qemugdb         - Same as qemu but start a GDB server on port 1234
   flash		  - Build and flash an application
   debug		  - Build and debug an application using GDB
 
@@ -34,22 +38,25 @@ Supported Boards:
 
   make BOARD=<BOARD NAME> flash
 
+  make BOARD=96b_nitrogen             - Build for 96b_nitrogen
+  make BOARD=altera_max10             - Build for altera_max10
   make BOARD=arduino_101              - Build for arduino_101
   make BOARD=arduino_101_sss          - Build for arduino_101_sss
   make BOARD=arduino_due              - Build for arduino_due
-  make BOARD=basic_atom               - Build for basic_atom
-  make BOARD=basic_cortex_m3          - Build for basic_cortex_m3
-  make BOARD=basic_minuteia           - Build for basic_minuteia
+  make BOARD=em_starterkit            - Build for em_starterkit
   make BOARD=frdm_k64f                - Build for frdm_k64f
   make BOARD=galileo                  - Build for galileo
   make BOARD=minnowboard              - Build for minnowboard
+  make BOARD=nrf52_pca10040           - Build for nrf52_pca10040
   make BOARD=nucleo_f103rb            - Build for nucleo_f103rb
+  make BOARD=olimexino_stm32          - Build for olimexino_stm32
   make BOARD=qemu_cortex_m3           - Build for qemu_cortex_m3
+  make BOARD=qemu_nios2               - Build for qemu_nios2
   make BOARD=qemu_x86                 - Build for qemu_x86
   make BOARD=qemu_x86_iamcu           - Build for qemu_x86_iamcu
   make BOARD=quark_d2000_crb          - Build for quark_d2000_crb
-  make BOARD=quark_se_devboard        - Build for quark_se_devboard
-  mae BOARD=quark_se_sss_devboard    - Build for quark_se_sss_devboard
+  make BOARD=quark_se_c1000_devboard  - Build for quark_se_c1000_devboard
+  make BOARD=quark_se_c1000_ss_devboard - Build for quark_se_c1000_ss_devboard
   make BOARD=stm32_mini_a15           - Build for stm32_mini_a15
 
 
