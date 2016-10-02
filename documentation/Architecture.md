@@ -163,7 +163,7 @@ nios2e-zephyr  nios2f-zephyr  nios2-qemu
 abraham@aarcemor-desk:~/zephyr-project$ ls arch/x86/
 core  debug  defconfig  include  Kbuild  Kconfig  Makefile  soc
 abraham@aarcemor-desk:~/zephyr-project$ ls arch/x86/soc/
-atom  ia32  quark_d2000  quark_se  quark_x1000
+atom  ia32  intel_quark
 ```
 
 ## Architecture, SoC, Board
