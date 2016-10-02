@@ -15,7 +15,7 @@ Makefile  prj.conf  prj.mdef  README.txt  sample.tc  src  testcase.ini
 ```
 
 ```sh
-user@workstation:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=qemu_x86 qemu
+user@workstation:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=qemu_x86
 make[1]: Entering directory '/home/xe1gyq/zephyr-project'
 make[2]: Entering directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
   Using /home/xe1gyq/zephyr-project as source for kernel
