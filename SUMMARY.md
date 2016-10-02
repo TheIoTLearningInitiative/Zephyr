@@ -16,10 +16,10 @@
        * [Building and Running an Application](documentation/Applications.md)
    * [Supported Boards](documentation/SupportedBoards.md)
        * x86 Instruction Set
+           * [X86 Emulation (QEMU)](documentation/x86EmulationQemu.md)
            * [Galileo Gen1/Gen2](documentation/IntelGalileo.md)
                * [Samples Shell](documentation/IntelGalileoSamplesShell.md)
                * [Samples Grove LCD](documentation/IntelGalileoGroveLcd.md)
-           * [X86 Emulation (QEMU)](documentation/x86EmulationQemu.md)
    * Zephyr Kernel Primer
        * [Architecture](documentation/Architecture.md)
    * Device Drivers and Device Model
