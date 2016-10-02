@@ -24,9 +24,9 @@ Checking connectivity... done.
 user@workstation:~$ source ~/.zephyrrc
 user@workstation:~$ cd zephyr-project/
 user@workstation:~/zephyr-project$ ls
-arch    drivers  Kbuild          kernel   MAINTAINERS   misc     scripts
-boards  ext      Kconfig         lib      Makefile      net      tests
-doc     include  Kconfig.zephyr  LICENSE  Makefile.inc  samples  zephyr-env.sh
+arch         doc      fs       Kconfig         lib          Makefile      net      tests
+boards       drivers  include  Kconfig.zephyr  LICENSE      Makefile.inc  samples  usb
+defaults.tc  ext      Kbuild   kernel          MAINTAINERS  misc          scripts  zephyr-env.sh
 user@workstation:~/zephyr-project$ source zephyr-env.sh 
 user@workstation:~/zephyr-project$ 
 ```
