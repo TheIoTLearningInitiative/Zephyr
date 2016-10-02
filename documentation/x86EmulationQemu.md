@@ -1,7 +1,7 @@
 # X86 Emulation (QEMU)
 
 ```sh
-pymelab@workstation:~/zephyr-project$ ls
+user@workstation:~/zephyr-project$ ls
 arch         drivers  Kbuild          lib          Makefile.inc  scripts
 boards       ext      Kconfig         LICENSE      misc          tests
 defaults.tc  fs       Kconfig.zephyr  MAINTAINERS  net           usb
