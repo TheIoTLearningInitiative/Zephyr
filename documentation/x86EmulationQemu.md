@@ -1,6 +1,10 @@
 # X86 Emulation (QEMU)
 
 ```sh
+
+```
+
+```sh
 user@workstation:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=qemu_x86 qemu
 make[1]: Entering directory '/home/xe1gyq/zephyr-project'
 make[2]: Entering directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
