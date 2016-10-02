@@ -22,9 +22,9 @@
            * [X86 Emulation (QEMU)](documentation/x86EmulationQemu.md)
    * Zephyr Kernel Primer
        * [Architecture](documentation/Architecture.md)
+   * Device Drivers and Device Model
    * Subsystems
        * [Bluetooth](documentation/Bluetooth.md)
-   * Device Drivers and Device Model
 * [External Workshops](documentation/Workshops.md)
    * [Intel Mexico Zephyr Workshop v1.0](documentation/IntelMexicoZephyrWorkshop.md)
    * [Intel Mexico Zephyr Workshop v2.0](documentation/IntelMexicoZephyrWorkshopv20.md)
