@@ -115,9 +115,9 @@ Look at the source tree top-level directories
 Review nanokernel and microkernel code
 
 ```sh
-    xe1gyq@jessie:~/zephyr-project$ nano include/nanokernel.h
-    xe1gyq@jessie:~/zephyr-project$ nano include/microkernel.h
-    xe1gyq@jessie:~/zephyr-project$ ls include/microkerne/
+user@workstation:~/zephyr-project$ nano include/nanokernel.h
+user@workstation:~/zephyr-project$ nano include/microkernel.h
+user@workstation:~/zephyr-project$ ls include/microkerne/
     base_api.h        event.h  mailbox.h     memory_pool.h  pipe.h       task.h      ticks.h
     command_packet.h  fifo.h   memory_map.h  mutex.h        semaphore.h  task_irq.h
 ```
