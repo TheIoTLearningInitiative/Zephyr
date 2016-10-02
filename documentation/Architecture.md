@@ -141,14 +141,14 @@ arc  arm  Kconfig  Makefile  nios2  x86
 ```sh
 user@workstation:~/zephyr-project$ ls arch/arc/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
-user@workstation:~/zephyr-project/arch$ ls arch/arc/soc
+user@workstation:~/zephyr-project$ ls arch/arc/soc
 em11d  em9d  quark_se_c1000_ss
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/arch$ ls arm/
+abraham@aarcemor-desk:~/zephyr-project$ ls arch/arm/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
-abraham@aarcemor-desk:~/zephyr-project/arch$ ls arm/soc/
+abraham@aarcemor-desk:~/zephyr-project$ ls arch/arm/soc/
 atmel_sam3  nordic_nrf5  nxp_kinetis  st_stm32  ti_lm3s6965
 ```
 
