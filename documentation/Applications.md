@@ -8,7 +8,7 @@ user@workstation:~$ git config --global --unset https.proxy
 ```
 
 ```sh
-xe1gyq@jessie:~$ git clone https://gerrit.zephyrproject.org/r/zephyr zephyr-project
+user@workstation:~$ git clone https://gerrit.zephyrproject.org/r/zephyr zephyr-project
 Cloning into 'zephyr-project'...
 remote: Counting objects: 3, done
 remote: Finding sources: 100% (3/3)
@@ -199,15 +199,15 @@ user@workstation:~/zephyr-project/samples/hello_world/microkernel$
 ### Setting the Project’s Environment Variables
 
 ```sh
-    xe1gyq@jessie:~$ cd zephyr-project 
-    xe1gyq@jessie:~/zephyr-project$ source zephyr-env.sh
+    user@workstation:~$ cd zephyr-project 
+    user@workstation:~/zephyr-project$ source zephyr-env.sh
 ```
 
 ### Building a Sample Application, Default
 
 ```sh
-    xe1gyq@jessie:~$ cd $ZEPHYR_BASE/samples/hello_world/microkernel
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ make
+    user@workstation:~$ cd $ZEPHYR_BASE/samples/hello_world/microkernel
+    user@workstation:~/zephyr-project/samples/hello_world/microkernel$ make
     Using /home/xe1gyq/zephyr-project/boards/qemu_x86/qemu_x86_defconfig as base
     Merging /home/xe1gyq/zephyr-project/kernel/configs/micro.config
     Merging prj.conf
@@ -337,7 +337,7 @@ user@workstation:~/zephyr-project/samples/hello_world/microkernel$
       BIN     zephyr.bin
     make[2]: Leaving directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
     make[1]: Leaving directory '/home/xe1gyq/zephyr-project'
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ make distclean
+    user@workstation:~/zephyr-project/samples/hello_world/microkernel$ make distclean
     make[1]: Entering directory '/home/xe1gyq/zephyr-project'
     make[2]: Entering directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
       CLEAN   .
@@ -349,13 +349,13 @@ user@workstation:~/zephyr-project/samples/hello_world/microkernel$
       CLEAN   .config .config.old include/generated/version.h
     make[2]: Leaving directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
     make[1]: Leaving directory '/home/xe1gyq/zephyr-project'
-    xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ 
+    user@workstation:~/zephyr-project/samples/hello_world/microkernel$ 
 ```
 
 ### Running a Sample Application, x86 Emulation QEMU
 
 ```sh
-xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=qemu_x86 qemu
+user@workstation:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=qemu_x86 qemu
 make[1]: Entering directory '/home/xe1gyq/zephyr-project'
 make[2]: Entering directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
   Using /home/xe1gyq/zephyr-project as source for kernel
@@ -371,5 +371,5 @@ Hello World!
 QEMU: Terminated
 make[2]: Leaving directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
 make[1]: Leaving directory '/home/xe1gyq/zephyr-project'
-xe1gyq@jessie:~/zephyr-project/samples/hello_world/microkernel$ 
+user@workstation:~/zephyr-project/samples/hello_world/microkernel$ 
 ```
