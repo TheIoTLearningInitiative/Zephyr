@@ -2,9 +2,10 @@
 
 ```sh
 user@workstation:~/zephyr-project$ ls
-arch    drivers  Kbuild          kernel   MAINTAINERS   misc     scripts
-boards  ext      Kconfig         lib      Makefile      net      tests
-doc     include  Kconfig.zephyr  LICENSE  Makefile.inc  samples  zephyr-env.sh
+arch         drivers  Kbuild          lib          Makefile.inc  scripts
+boards       ext      Kconfig         LICENSE      misc          tests
+defaults.tc  fs       Kconfig.zephyr  MAINTAINERS  net           usb
+doc          include  kernel          Makefile     samples       zephyr-env.sh
 user@workstation:~/zephyr-project$ ls boards/
 altera_max10     em_starterkit  nrf52_pca10040   quark_d2000_crb
 arduino_101      frdm_k64f      nucleo_f103rb    quark_se_devboard
