@@ -146,23 +146,23 @@ em11d  em9d  quark_se_c1000_ss
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project$ ls arch/arm/
+user@workstation:~/zephyr-project$ ls arch/arm/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
-abraham@aarcemor-desk:~/zephyr-project$ ls arch/arm/soc/
+user@workstation:~/zephyr-project$ ls arch/arm/soc/
 atmel_sam3  nordic_nrf5  nxp_kinetis  st_stm32  ti_lm3s6965
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project$ ls arch/nios2/
+user@workstation:~/zephyr-project$ ls arch/nios2/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
-abraham@aarcemor-desk:~/zephyr-project$ ls arch/nios2/soc
+user@workstation:~/zephyr-project$ ls arch/nios2/soc
 nios2e-zephyr  nios2f-zephyr  nios2-qemu
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project$ ls arch/x86/
+user@workstation:~/zephyr-project$ ls arch/x86/
 core  debug  defconfig  include  Kbuild  Kconfig  Makefile  soc
-abraham@aarcemor-desk:~/zephyr-project$ ls arch/x86/soc/
+user@workstation:~/zephyr-project$ ls arch/x86/soc/
 atom  ia32  intel_quark
 ```
 
@@ -187,11 +187,11 @@ and identify which SoC is tight to which Board for the x86 Architecture
 Now confirm your answers are correct by looking at the Zephyr Kernel Configuration, x86 SoC & Board Selection
 
 ```sh
-    xe1gyq@jessie:~/zephyr-project$ make menuconfig
-    ...
-    x86 SoC Selection (Generic IA32 SoC)
-    x86 Options
-    Board Selection (QEMU x86)
-    Board Options
-    ...
+user@workstation:~/zephyr-project$ make menuconfig
+...
+x86 SoC Selection (Generic IA32 SoC)
+x86 Options
+Board Selection (QEMU x86)
+Board Options
+...
 ```
