@@ -134,16 +134,15 @@ doc          include  kernel          Makefile     samples       zephyr-env.sh
 ```
 
 ```sh
-user@workstation:~/zephyr-project$ cd arch/
-user@workstation:~/zephyr-project/arch$ ls
+user@workstation:~/zephyr-project$ ls arch
 arc  arm  Kconfig  Makefile  nios2  x86
 ```
 
 ```sh
-user@workstation:~/zephyr-project/arch$ ls arc/
+user@workstation:~/zephyr-project$ ls arch/arc/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
-user@workstation:~/zephyr-project/arch$ ls arc/soc
-em11d  em9d  quark_se_ss
+user@workstation:~/zephyr-project/arch$ ls arch/arc/soc
+em11d  em9d  quark_se_c1000_ss
 ```
 
 ```sh
