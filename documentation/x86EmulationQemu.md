@@ -9,6 +9,11 @@ doc          include  kernel          Makefile     samples       zephyr-env.sh
 ```
 
 ```sh
+pymelab@workstation:~/zephyr-project$ cd samples/hello_world/microkernel/
+pymelab@workstation:~/zephyr-project/samples/hello_world/microkernel$
+```
+
+```sh
 user@workstation:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=qemu_x86 qemu
 make[1]: Entering directory '/home/xe1gyq/zephyr-project'
 make[2]: Entering directory '/home/xe1gyq/zephyr-project/samples/hello_world/microkernel/outdir'
