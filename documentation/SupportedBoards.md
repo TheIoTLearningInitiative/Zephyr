@@ -1,7 +1,7 @@
 # Supported Boards
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project$ ls
+user@workstation:~/zephyr-project$ ls
 arch    drivers  Kbuild          kernel   MAINTAINERS   misc     scripts
 boards  ext      Kconfig         lib      Makefile      net      tests
 doc     include  Kconfig.zephyr  LICENSE  Makefile.inc  samples  zephyr-env.sh
