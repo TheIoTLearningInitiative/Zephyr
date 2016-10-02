@@ -15,20 +15,20 @@ user@workstation:~/zephyr-project/samples/shell$
 Booting the Galileo Board
 
 ```sh
-    WARNING: no console will be available to OS
-    error: no suitable video mode found.
-    shell> help
-    Available commands:
-    help
-    ping
-    ticks
-    highticks
-    shell> 
-    shell> ping
-    pong
-    shell> ticks
-    ticks: 2616
-    shell> highticks
-    highticks: 438339144
-    shell> 
+WARNING: no console will be available to OS
+error: no suitable video mode found.
+shell> help
+Available commands:
+help
+ping
+ticks
+highticks
+shell> 
+shell> ping
+pong
+shell> ticks
+ticks: 2616
+shell> highticks
+highticks: 438339144
+shell> 
 ```
