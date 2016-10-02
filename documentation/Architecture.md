@@ -118,30 +118,31 @@ Review nanokernel and microkernel code
 user@workstation:~/zephyr-project$ nano include/nanokernel.h
 user@workstation:~/zephyr-project$ nano include/microkernel.h
 user@workstation:~/zephyr-project$ ls include/microkerne/
-    base_api.h        event.h  mailbox.h     memory_pool.h  pipe.h       task.h      ticks.h
-    command_packet.h  fifo.h   memory_map.h  mutex.h        semaphore.h  task_irq.h
+base_api.h        event.h  mailbox.h     memory_pool.h  pipe.h       task.h      ticks.h
+command_packet.h  fifo.h   memory_map.h  mutex.h        semaphore.h  task_irq.h
 ```
 
 ## Architectures
 
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project$ ls
-arch    drivers  Kbuild          kernel   MAINTAINERS   misc     scripts
-boards  ext      Kconfig         lib      Makefile      net      tests
-doc     include  Kconfig.zephyr  LICENSE  Makefile.inc  samples  zephyr-env.sh
+user@workstation:~/zephyr-project$ ls
+arch         drivers  Kbuild          lib          Makefile.inc  scripts
+boards       ext      Kconfig         LICENSE      misc          tests
+defaults.tc  fs       Kconfig.zephyr  MAINTAINERS  net           usb
+doc          include  kernel          Makefile     samples       zephyr-env.sh
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project$ cd arch/
-abraham@aarcemor-desk:~/zephyr-project/arch$ ls
+user@workstation:~/zephyr-project$ cd arch/
+user@workstation:~/zephyr-project/arch$ ls
 arc  arm  Kconfig  Makefile  nios2  x86
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/arch$ ls arc/
+user@workstation:~/zephyr-project/arch$ ls arc/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
-abraham@aarcemor-desk:~/zephyr-project/arch$ ls arc/soc
+user@workstation:~/zephyr-project/arch$ ls arc/soc
 em11d  em9d  quark_se_ss
 ```
 
