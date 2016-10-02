@@ -23,4 +23,7 @@ user@workstation:~/zephyr-project$ make menuconfig
     Logging Options
     System Monitoring Options
     Boot Options
+    Cryptography
+    IoT Protocols
+    File System
 ```
