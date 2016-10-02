@@ -153,16 +153,16 @@ atmel_sam3  nordic_nrf5  nxp_kinetis  st_stm32  ti_lm3s6965
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/arch$ ls nios2/
+abraham@aarcemor-desk:~/zephyr-project$ ls arch/nios2/
 core  defconfig  include  Kbuild  Kconfig  Makefile  soc
-abraham@aarcemor-desk:~/zephyr-project/arch$ ls nios2/soc
+abraham@aarcemor-desk:~/zephyr-project$ ls arch/nios2/soc
 nios2e-zephyr  nios2f-zephyr  nios2-qemu
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/arch$ ls x86/
+abraham@aarcemor-desk:~/zephyr-project$ ls arch/x86/
 core  debug  defconfig  include  Kbuild  Kconfig  Makefile  soc
-abraham@aarcemor-desk:~/zephyr-project/arch$ ls x86/soc/
+abraham@aarcemor-desk:~/zephyr-project$ ls arch/x86/soc/
 atom  ia32  quark_d2000  quark_se  quark_x1000
 ```
 
