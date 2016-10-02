@@ -10,7 +10,7 @@ doc          include  kernel          Makefile     samples       zephyr-env.sh
 
 ```sh
 pymelab@workstation:~/zephyr-project$ cd samples/hello_world/microkernel/
-pymelab@workstation:~/zephyr-project/samples/hello_world/microkernel$
+pymelab@workstation:~/zephyr-project/samples/hello_world/microkernel$ 
 ```
 
 ```sh
