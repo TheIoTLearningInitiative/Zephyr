@@ -3,8 +3,8 @@
 ## Download the Code
   
 ```sh
-abraham@aarcemor-desk:~$ git config --global --unset http.proxy
-abraham@aarcemor-desk:~$ git config --global --unset https.proxy
+user@workstation:~$ git config --global --unset http.proxy
+user@workstation:~$ git config --global --unset https.proxy
 ```
 
 ```sh
@@ -21,21 +21,21 @@ Checking connectivity... done.
 ## Setting the Project’s Environment Variables
 
 ```sh
-abraham@aarcemor-desk:~$ source ~/.zephyrrc
-abraham@aarcemor-desk:~$ cd zephyr-project/
-abraham@aarcemor-desk:~/zephyr-project$ ls
+user@workstation:~$ source ~/.zephyrrc
+user@workstation:~$ cd zephyr-project/
+user@workstation:~/zephyr-project$ ls
 arch    drivers  Kbuild          kernel   MAINTAINERS   misc     scripts
 boards  ext      Kconfig         lib      Makefile      net      tests
 doc     include  Kconfig.zephyr  LICENSE  Makefile.inc  samples  zephyr-env.sh
-abraham@aarcemor-desk:~/zephyr-project$ source zephyr-env.sh 
-abraham@aarcemor-desk:~/zephyr-project$ 
+user@workstation:~/zephyr-project$ source zephyr-env.sh 
+user@workstation:~/zephyr-project$ 
 ```
 
 ## Building and Running an Application
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project$ cd $ZEPHYR_BASE/samples/hello_world/microkernel
-abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=galileo
+user@workstation:~/zephyr-project$ cd $ZEPHYR_BASE/samples/hello_world/microkernel
+user@workstation:~/zephyr-project/samples/hello_world/microkernel$ make BOARD=galileo
 Using /home/abraham/zephyr-project/boards/galileo/galileo_defconfig as base
 Merging /home/abraham/zephyr-project/kernel/configs/micro.config
 Merging prj.conf
@@ -193,7 +193,7 @@ make[2]: Entering directory `/home/abraham/zephyr-project/samples/hello_world/mi
   BIN     zephyr.bin
 make[2]: Leaving directory `/home/abraham/zephyr-project/samples/hello_world/microkernel/outdir'
 make[1]: Leaving directory `/home/abraham/zephyr-project'
-abraham@aarcemor-desk:~/zephyr-project/samples/hello_world/microkernel$ 
+user@workstation:~/zephyr-project/samples/hello_world/microkernel$ 
 ```
 
 ### Setting the Project’s Environment Variables
