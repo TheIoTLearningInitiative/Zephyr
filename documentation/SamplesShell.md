@@ -1,33 +1,33 @@
 # Samples Shell
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project$ ls
+user@workstation:~/zephyr-project$ ls
 arch    drivers  Kbuild          kernel   MAINTAINERS   misc     scripts
 boards  ext      Kconfig         lib      Makefile      net      tests
 doc     include  Kconfig.zephyr  LICENSE  Makefile.inc  samples  zephyr-env.sh
-abraham@aarcemor-desk:~/zephyr-project$ cd samples/shell/
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ ls
+user@workstation:~/zephyr-project$ cd samples/shell/
+user@workstation:~/zephyr-project/samples/shell$ ls
 Makefile  prj.conf  src
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ cd src/
-abraham@aarcemor-desk:~/zephyr-project/samples/shell/src$ ls
+user@workstation:~/zephyr-project/samples/shell$ cd src/
+user@workstation:~/zephyr-project/samples/shell/src$ ls
 main.c  Makefile
-abraham@aarcemor-desk:~/zephyr-project/samples/shell/src$ 
+user@workstation:~/zephyr-project/samples/shell/src$ 
 ```
 
 ## Environment Checking
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ echo $ZEPHYR_BASE
+user@workstation:~/zephyr-project/samples/shell$ echo $ZEPHYR_BASE
 /home/abraham/zephyr-project
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ echo $ZEPHYR_GCC_VARIANT
+user@workstation:~/zephyr-project/samples/shell$ echo $ZEPHYR_GCC_VARIANT
 zephyr
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+user@workstation:~/zephyr-project/samples/shell$ 
 ```
 
 ## Application Template
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ ls -lhR 
+user@workstation:~/zephyr-project/samples/shell$ ls -lhR 
 .:
 total 12K
 -rw-rw-r-- 1 abraham abraham   95 jun 25 12:13 Makefile
@@ -38,13 +38,13 @@ drwxrwxr-x 2 abraham abraham 4.0K jun 25 12:13 src
 total 8.0K
 -rw-rw-r-- 1 abraham abraham 1.4K jun 25 12:13 main.c
 -rw-rw-r-- 1 abraham abraham   16 jun 25 12:13 Makefile
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+user@workstation:~/zephyr-project/samples/shell$ 
 ```
 
 ## Make Menuconfig
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ make menuconfig
+user@workstation:~/zephyr-project/samples/shell$ make menuconfig
 make[1]: Entering directory `/home/abraham/zephyr-project'
 make[2]: Entering directory `/home/abraham/zephyr-project/samples/shell/outdir'
   GEN     ./Makefile
@@ -56,25 +56,25 @@ scripts/kconfig/mconf Kconfig
 
 make[2]: Leaving directory `/home/abraham/zephyr-project/samples/shell/outdir'
 make[1]: Leaving directory `/home/abraham/zephyr-project'
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+user@workstation:~/zephyr-project/samples/shell$ 
 ```
 
 ## Project Configuration
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ cat prj.conf 
+user@workstation:~/zephyr-project/samples/shell$ cat prj.conf 
 CONFIG_CONSOLE_HANDLER=y
 CONFIG_CONSOLE_HANDLER_SHELL=y
 CONFIG_PRINTK=y
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+user@workstation:~/zephyr-project/samples/shell$ 
 ```
 
 ## Compilation
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ ls
+user@workstation:~/zephyr-project/samples/shell$ ls
 Makefile  outdir  prj.conf  src
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ make BOARD=arduino_101_factory
+user@workstation:~/zephyr-project/samples/shell$ make BOARD=arduino_101_factory
 Using /home/abraham/zephyr-project/boards/arduino_101/arduino_101_factory_defconfig as base
 Merging /home/abraham/zephyr-project/kernel/configs/nano.config
 Merging prj.conf
@@ -191,13 +191,13 @@ make[2]: Entering directory `/home/abraham/zephyr-project/samples/shell/outdir'
   BIN     zephyr.bin
 make[2]: Leaving directory `/home/abraham/zephyr-project/samples/shell/outdir'
 make[1]: Leaving directory `/home/abraham/zephyr-project'
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+user@workstation:~/zephyr-project/samples/shell$ 
 ```
 
 ## Kernel Dmesg
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ dmesg
+user@workstation:~/zephyr-project/samples/shell$ dmesg
 ...
 [26110.263053] usb 3-1: new full-speed USB device number 8 using xhci_hcd
 [26110.396749] usb 3-1: New USB device found, idVendor=0403, idProduct=6001
@@ -219,13 +219,13 @@ abraham@aarcemor-desk:~/zephyr-project/samples/shell$ dmesg
 [29680.369649] usb 3-2: Product: ARDUINO 101
 [29680.369651] usb 3-2: Manufacturer: Intel
 [29680.369653] usb 3-2: SerialNumber: AE6642SQ60400W3
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+user@workstation:~/zephyr-project/samples/shell$ 
 ```
 
 ## Flashing
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ sudo dfu-util -a x86_app -D outdir/zephyr.bin
+user@workstation:~/zephyr-project/samples/shell$ sudo dfu-util -a x86_app -D outdir/zephyr.bin
 [sudo] password for abraham: 
 ```
 
@@ -238,11 +238,11 @@ This program is Free Software and has ABSOLUTELY NO WARRANTY
 Please report bugs to dfu-util@lists.gnumonks.org
 
 No DFU capable USB device found
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+user@workstation:~/zephyr-project/samples/shell$ 
 ```
 
 ```sh
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ sudo dfu-util -a x86_app -D outdir/zephyr.bin
+user@workstation:~/zephyr-project/samples/shell$ sudo dfu-util -a x86_app -D outdir/zephyr.bin
 dfu-util 0.7
 
 Copyright 2005-2008 Weston Schmidt, Harald Welte and OpenMoko Inc.
@@ -266,9 +266,9 @@ Copying data from PC to DFU device
 Starting download: [##################################################] finished!
 state(2) = dfuIDLE, status(0) = No error condition is present
 Done!
-abraham@aarcemor-desk:~/zephyr-project/samples/shell$ 
+user@workstation:~/zephyr-project/samples/shell$ 
 ```
 
 ```sh
-abraham@aarcemor-desk:~$ screen /dev/ttyUSB0 115200
+user@workstation:~$ screen /dev/ttyUSB0 115200
 ```
