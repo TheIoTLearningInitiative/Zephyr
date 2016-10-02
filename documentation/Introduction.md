@@ -5,7 +5,7 @@
 > Zephyr Project is a small, scalable real-time operating system for use on resource-constrained systems supporting multiple architectures.  Developers are able to tailor their optimal solution. As a true open source project, the community can evolve the Zephyr Project to support new hardware, developer tools, sensor and device drivers.  Advancements in security, device management capabilities, connectivity stacks and file systems can be easily implemented. [Zephyr Homepage](https://www.zephyrproject.org/)
 
 - [Open IoT Summit Zephyr Project Overview](http://events.linuxfoundation.org/sites/events/files/slides/Zephyr%20Overview%20-%20OpenIOT%20Summit%202016.pdf)
-- [Zephyr Gerrit](gerrit.zephyrporjectorg) 
+- [Zephyr Gerrit](gerrit.zephyrporjectorg)
 - [Zephyr JIRA](jira.zephyrproject.org)
 - [Zephyr Highlights](https://www.zephyrproject.org/sites/local-zephyr/files/zephyr_project_highlights.pdf)
 - [Zephyr Connnectivity](https://www.zephyrproject.org/sites/local-zephyr/files/zephyr_project_connectivity.pdf)
