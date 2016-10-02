@@ -1,5 +1,15 @@
 # Build System User Guide
 
+```sh
+user@workstation:~$ source ~/.zephyrrc
+user@workstation:~$ cd zephyr-project/
+user@workstation:~/zephyr-project$ ls
+arch         doc      fs       Kconfig         lib          Makefile      net      tests
+boards       drivers  include  Kconfig.zephyr  LICENSE      Makefile.inc  samples  usb
+defaults.tc  ext      Kbuild   kernel          MAINTAINERS  misc          scripts  zephyr-env.sh
+user@workstation:~/zephyr-project$ 
+```
+
 ## Make Menuconfig
 
 ```sh
