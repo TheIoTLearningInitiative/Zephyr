@@ -20,6 +20,7 @@
            * [Galileo Gen1/Gen2](documentation/IntelGalileo.md)
                * [Samples Shell](documentation/IntelGalileoSamplesShell.md)
                * [Samples Grove LCD](documentation/IntelGalileoGroveLcd.md)
+           * Arduino 101
    * Zephyr Kernel Primer
        * [Architecture](documentation/Architecture.md)
    * Device Drivers and Device Model
