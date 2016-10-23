@@ -11,6 +11,16 @@ user@workstation:~$ sudo apt-get install bison autoconf libopts25-dev flex autom
 ```
 
 ```sh
+user@workstation:~$ cd zephyr-project/
+user@workstation:~/zephyr-project$ ls
+arch         doc      fs       Kconfig         lib          Makefile      net      tests
+boards       drivers  include  Kconfig.zephyr  LICENSE      Makefile.inc  samples  usb
+defaults.tc  ext      Kbuild   kernel          MAINTAINERS  misc          scripts  zephyr-env.sh
+user@workstation:~/zephyr-project$ source zephyr-env.sh 
+user@workstation:~/zephyr-project$ 
+```
+
+```sh
 user@workstation:~$ cd $ZEPHYR_BASE
 ```
 
