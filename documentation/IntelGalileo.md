@@ -80,6 +80,16 @@ user@workstation:~/Intel/Zephyr/zephyr-project$ sudo umount /dev/mmcblk0p1
 ## Building
 
 ```sh
+user@workstation:~$ cd zephyr-project/
+user@workstation:~/zephyr-project$ ls
+arch         doc      fs       Kconfig         lib          Makefile      net      tests
+boards       drivers  include  Kconfig.zephyr  LICENSE      Makefile.inc  samples  usb
+defaults.tc  ext      Kbuild   kernel          MAINTAINERS  misc          scripts  zephyr-env.sh
+user@workstation:~/zephyr-project$ source zephyr-env.sh 
+user@workstation:~/zephyr-project$ 
+```
+
+```sh
 user@workstation:~/Intel/Zephyr/zephyr-project$ cd samples/hello_world/nanokernel/
 ```
 
