@@ -11,7 +11,7 @@ user@workstation:~$ sudo apt-get install bison autoconf libopts25-dev flex autom
 ```
 
 ```sh
-user@workstation:~$ cd zephyr-project/
+user@workstation:~$ cd ~/Intel/Zephyr/zephyr-project/
 user@workstation:~/Intel/Zephyr/zephyr-project$ ls
 arch         doc      fs       Kconfig         lib          Makefile      net      tests
 boards       drivers  include  Kconfig.zephyr  LICENSE      Makefile.inc  samples  usb
