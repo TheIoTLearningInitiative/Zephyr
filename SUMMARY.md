@@ -27,6 +27,7 @@
    * Subsystems
        * [Bluetooth](documentation/Bluetooth.md)
    * [Build System User Guide](documentation/BuildSystemUserGuide.md)
+   * Factory Reset
 * [External Workshops](documentation/Workshops.md)
    * [Intel Mexico Zephyr Workshop v1.0](documentation/IntelMexicoZephyrWorkshop.md)
    * [Intel Mexico Zephyr Workshop v2.0](documentation/IntelMexicoZephyrWorkshopv20.md)
