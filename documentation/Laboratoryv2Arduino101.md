@@ -5,6 +5,16 @@ user@workstation:~$ screen /dev/ttyUSB0 115200
 ```
 
 ```sh
+user@workstation:~$ cd ~/Intel/Zephyr/zephyr-project/
+user@workstation:~/Intel/Zephyr/zephyr-project$ ls
+arch         doc      fs       Kconfig         lib          Makefile      net      tests
+boards       drivers  include  Kconfig.zephyr  LICENSE      Makefile.inc  samples  usb
+defaults.tc  ext      Kbuild   kernel          MAINTAINERS  misc          scripts  zephyr-env.sh
+user@workstation:~/Intel/Zephyr/zephyr-project$ source zephyr-env.sh 
+user@workstation:~/Intel/Zephyr/zephyr-project$ 
+```
+
+```sh
 pymelab@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel$ make pristine
 pymelab@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel$ make BOARD=arduino_101
 Using /home/pymelab/Intel/Zephyr/zephyr-project/boards/arduino_101/arduino_101_defconfig as base
