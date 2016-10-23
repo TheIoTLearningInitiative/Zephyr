@@ -11,6 +11,7 @@
    * [DFU](documentation/Dfu.md)
    * [NIOS2](documentation/Nios2.md)
 * Documentation
+   * Factory Reset
    * Getting Started Guide
        * [Development Environment](documentation/DevelopmentEnvironment.md)
        * [Building and Running an Application](documentation/Applications.md)
@@ -27,7 +28,6 @@
    * Subsystems
        * [Bluetooth](documentation/Bluetooth.md)
    * [Build System User Guide](documentation/BuildSystemUserGuide.md)
-   * Factory Reset
 * [External Workshops](documentation/Workshops.md)
    * [Intel Mexico Zephyr Workshop v1.0](documentation/IntelMexicoZephyrWorkshop.md)
    * [Intel Mexico Zephyr Workshop v2.0](documentation/IntelMexicoZephyrWorkshopv20.md)
