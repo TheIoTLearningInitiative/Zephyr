@@ -4,7 +4,7 @@
 
 - [Zephyr Project Galileo Gen1 Gen2](https://wiki.zephyrproject.org/view/Galileo_Gen1_Gen2)
 
-## Creating a GRUB2 Boot Loader Image from a Linux Host
+# Creating a GRUB2 Boot Loader Image from a Linux Host
 
 ```sh
 user@workstation:~$ sudo apt-get install bison autoconf libopts25-dev flex automake
