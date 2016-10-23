@@ -11,20 +11,20 @@ user@workstation:~/Intel/Zephyr/zephyr-project$
 ```
 
 ```sh
-pymelab@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel$ make pristine && make BOARD=arduino_101
-Using /home/pymelab/Intel/Zephyr/zephyr-project/boards/arduino_101/arduino_101_defconfig as base
-Merging /home/pymelab/Intel/Zephyr/zephyr-project/kernel/configs/micro.config
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel$ make pristine && make BOARD=arduino_101
+Using /home/user/Intel/Zephyr/zephyr-project/boards/arduino_101/arduino_101_defconfig as base
+Merging /home/user/Intel/Zephyr/zephyr-project/kernel/configs/micro.config
 Merging prj.conf
 #
 # configuration written to .config
 #
-make[1]: se ingresa al directorio «/home/pymelab/Intel/Zephyr/zephyr-project»
-make[2]: se ingresa al directorio «/home/pymelab/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel/outdir/arduino_101»
+make[1]: se ingresa al directorio «/home/user/Intel/Zephyr/zephyr-project»
+make[2]: se ingresa al directorio «/home/user/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel/outdir/arduino_101»
   GEN     ./Makefile
 scripts/kconfig/conf --silentoldconfig Kconfig
-make[2]: se sale del directorio «/home/pymelab/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel/outdir/arduino_101»
-make[2]: se ingresa al directorio «/home/pymelab/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel/outdir/arduino_101»
-  Using /home/pymelab/Intel/Zephyr/zephyr-project as source for kernel
+make[2]: se sale del directorio «/home/user/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel/outdir/arduino_101»
+make[2]: se ingresa al directorio «/home/user/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel/outdir/arduino_101»
+  Using /home/user/Intel/Zephyr/zephyr-project as source for kernel
   GEN     ./Makefile
   CHK     include/generated/version.h
   UPD     include/generated/version.h
@@ -156,13 +156,13 @@ make[2]: se ingresa al directorio «/home/pymelab/Intel/Zephyr/zephyr-project/sa
   SIDT    staticIdt.o
   LINK    zephyr.elf
   BIN     zephyr.bin
-make[2]: se sale del directorio «/home/pymelab/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel/outdir/arduino_101»
-make[1]: se sale del directorio «/home/pymelab/Intel/Zephyr/zephyr-project»
-pymelab@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel$ 
+make[2]: se sale del directorio «/home/user/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel/outdir/arduino_101»
+make[1]: se sale del directorio «/home/user/Intel/Zephyr/zephyr-project»
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel$ 
 ```
 
 ```sh
-pymelab@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel$ sudo dfu-util -a x86_app -D outdir/arduino_101/zephyr.bin 
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel$ sudo dfu-util -a x86_app -D outdir/arduino_101/zephyr.bin 
 sudo: imposible resolver el anfitrión workstation
 dfu-util 0.5
 
@@ -188,5 +188,5 @@ Copying data from PC to DFU device
 Starting download: [##################################################] finished!
 state(2) = dfuIDLE, status(0) = No error condition is present
 Done!
-pymelab@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel$ 
+user@workstation:~/Intel/Zephyr/zephyr-project/samples/hello_world/microkernel$ 
 ```
