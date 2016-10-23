@@ -11,7 +11,7 @@
    * [DFU](documentation/Dfu.md)
    * [NIOS2](documentation/Nios2.md)
 * Documentation
-   * Factory Reset
+   * [Factory Reset](documentation/FactoryReset.md)
    * Getting Started Guide
        * [Development Environment](documentation/DevelopmentEnvironment.md)
        * [Building and Running an Application](documentation/Applications.md)
